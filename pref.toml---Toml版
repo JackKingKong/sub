@@ -206,7 +206,7 @@ import = "snippets/emoji.toml"
 
 [[custom_groups]]
 #import = "CustomRules/snippets/groups.toml"
-import = "https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/groups.toml"
+import = "https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/toml/groups.toml"
 
 [ruleset]
 # Enable generating rules with rulesets
@@ -226,7 +226,7 @@ update_ruleset_on_request = false
 
 [[rulesets]]
 #import = "CustomRules/snippets/rulesets.toml"
-import = "https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/github-rulesets.toml"
+import = "https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/toml/github-rulesets.toml"
 
 [template]
 template_path = ""
