@@ -199,9 +199,9 @@ update_ruleset_on_request=false
 ;ruleset=🎯 全球直连,[]GEOIP,CN
 ;ruleset=🐟 漏网之鱼,[]FINAL
 
-;ruleset=!!import:CustomRules/snippets/meta-rulesets.txt
-;ruleset=!!import:https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/github-meta-rulesets.txt
-ruleset=!!import:https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/mirror-meta-rulesets.txt
+;ruleset=!!import:CustomRules/snippets/local-meta-rulesets.txt
+;ruleset=!!import:https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/meta/github-meta-rulesets.txt
+ruleset=!!import:https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/meta/mirror-meta-rulesets.txt
 
 [proxy_groups]
 ;Generate Clash Proxy Group with the following patterns. Node filtering rule supports regular expression.
@@ -231,8 +231,8 @@ ruleset=!!import:https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ja
 
 ;for Surge rulesets
 ;custom_proxy_group=!!import:CustomRules/snippets/meta-groups.txt
-;custom_proxy_group=!!import:https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/meta-groups.txt
-custom_proxy_group=!!import:https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/meta-groups.txt
+;custom_proxy_group=!!import:https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/meta/meta-groups.txt
+custom_proxy_group=!!import:https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/meta/meta-groups.txt
 
 [template]
 ;The file scope limit of 'include' statement inside the templates.

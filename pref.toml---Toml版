@@ -225,7 +225,7 @@ update_ruleset_on_request = false
 # interval = 86400
 
 [[rulesets]]
-#import = "CustomRules/snippets/rulesets.toml"
+#import = "CustomRules/snippets/local-rulesets.toml"
 import = "https://raw.githubusercontent.com/JackKingKong/sub/main/snippets/toml/github-rulesets.toml"
 
 [template]
