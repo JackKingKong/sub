@@ -263,7 +263,7 @@ dns:
     - activityapi.huya.com.w.cdngslb.com
     #UltraMobile
     - "+.mnc260.mcc310.pub.3gppnetwork.org"
-    #My VPS
+    #My DomainName
     - "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
     - “+.subdomain.cloudns.ch"
