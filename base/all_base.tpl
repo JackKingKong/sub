@@ -265,7 +265,8 @@ dns:
     - "+.mnc260.mcc310.pub.3gppnetwork.org"
     #My VPS
     - "+.cloudapp.azure.com"
-    - azu.subsite.cloudns.ch
+    - "+.subsite.cloudns.ch"
+    - “+.subdomain.cloudns.ch"
     - "+.kcfc.eu.org"
 
 {% if local.clash.new_field_name == "true" %}
