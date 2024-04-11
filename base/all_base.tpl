@@ -32,15 +32,15 @@ dns:
     "*.alipay*.com": 223.5.5.5
     "*.alibaba*.com": 223.5.5.5
     "*.alimama*.com": 223.5.5.5
-    "*.qq.com": 114.114.114.114
-    "*.tencent.com": 114.114.114.114
-    "*.weixin.com": 114.114.114.114
+    "*.qq.com": 119.29.29.29
+    "*.tencent.com": 119.29.29.29
+    "*.weixin.com": 119.29.29.29
     "*.qpic.cn": 114.114.114.114
     "*.jd.com": 114.114.114.114
     "*.bilibili.com": 114.114.114.114
     hdslb.com: 114.114.114.114
-    "*.163.com": 119.29.29.29
-    "*.126.com": 119.29.29.29
+    "*.163.com": 114.114.114.114
+    "*.126.com": 114.114.114.114
     "*.126.net": 114.114.114.114
     "*.127.net": 114.114.114.114
     "*.netease.com": 114.114.114.114
@@ -271,7 +271,7 @@ dns:
     #My DomainName
     - "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
-    - “+.subdomain.cloudns.ch"
+    - "+.subdomain.cloudns.ch"
     - "+.kcfc.eu.org"
     
 
