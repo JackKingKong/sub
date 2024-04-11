@@ -108,8 +108,8 @@ dns:
       - "+.googlesyndication.com"
       - "+.googletagmanager.com"
       - "+.googletagservices.com"
+      - "+.githubusercontent.com"
       - time.android.com
-      - raw.githubusercontent.com
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
   enable: true
   #default-nameserver:
@@ -265,7 +265,7 @@ dns:
     - activityapi.huya.com.w.cdngslb.com
     #Other
     - mtalk.google.com
-    - raw.githubusercontent.com
+    - "+.githubusercontent.com"
     #UltraMobile
     - "+.mnc260.mcc310.pub.3gppnetwork.org"
     #My DomainName
