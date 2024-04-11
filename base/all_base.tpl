@@ -7,8 +7,8 @@ mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
 hosts:
-  mtalk.google.com: 108.177.125.188
-  raw.githubusercontent.com: 151.101.76.133
+  #mtalk.google.com: 108.177.125.188
+  #raw.githubusercontent.com: 151.101.76.133
   #time.android.com: 203.107.6.88
   #epdg.epc.mnc260.mcc310.pub.3gppnetwork.org: 208.54.36.3
   #ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org: 208.54.88.35
@@ -108,6 +108,8 @@ dns:
       - "+.googlesyndication.com"
       - "+.googletagmanager.com"
       - "+.googletagservices.com"
+      - time.android.com
+      - raw.githubusercontent.com
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
   enable: true
   #default-nameserver:
@@ -261,6 +263,9 @@ dns:
     - www.douyu.com
     - activityapi.huya.com
     - activityapi.huya.com.w.cdngslb.com
+    #Other
+    - mtalk.google.com
+    - raw.githubusercontent.com
     #UltraMobile
     - "+.mnc260.mcc310.pub.3gppnetwork.org"
     #My DomainName
