@@ -9,6 +9,7 @@ external-controller: :9090
 hosts:
   #mtalk.google.com: 108.177.125.188
   #raw.githubusercontent.com: 151.101.76.133
+  raw.githubusercontent.com: 185.199.108.133
   #time.android.com: 203.107.6.88
   #epdg.epc.mnc260.mcc310.pub.3gppnetwork.org: 208.54.36.3
   #ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org: 208.54.88.35
@@ -108,7 +109,6 @@ dns:
       - "+.googlesyndication.com"
       - "+.googletagmanager.com"
       - "+.googletagservices.com"
-      - "+.githubusercontent.com"
       - time.android.com
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
   enable: true
@@ -265,7 +265,6 @@ dns:
     - activityapi.huya.com.w.cdngslb.com
     #Other
     - mtalk.google.com
-    - "+.githubusercontent.com"
     #UltraMobile
     - "+.mnc260.mcc310.pub.3gppnetwork.org"
     #My DomainName
@@ -273,7 +272,6 @@ dns:
     - "+.subsite.cloudns.ch"
     - "+.subdomain.cloudns.ch"
     - "+.kcfc.eu.org"
-    
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
