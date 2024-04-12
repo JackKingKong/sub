@@ -65,8 +65,7 @@ sniffer:
     - "dlg.io.mi.com"
     - "+.apple.com"
 hosts:
-    mtalk.google.com: 108.177.125.188
-    raw.githubusercontent.com: 151.101.76.133
+  raw.githubusercontent.com: 185.199.108.133
 dns:
   enabled: true
   ipv6: true
@@ -263,6 +262,8 @@ dns:
     - www.douyu.com
     - activityapi.huya.com
     - activityapi.huya.com.w.cdngslb.com
+    #Other
+    - mtalk.google.com
     #UltraMobile
     - "+.mnc260.mcc310.pub.3gppnetwork.org"
     #My DomainName
