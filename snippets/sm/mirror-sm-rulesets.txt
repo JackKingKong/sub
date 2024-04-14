@@ -1,5 +1,5 @@
 #🌏 优先直连,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/PriorityDirect.list
-#🌏 自定义直连,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
+🌏 自定义直连,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
 #🌏 自定义代理,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 #🌏 VPSJP,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 #🌏 VPSKR,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
