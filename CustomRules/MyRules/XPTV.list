@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,yunpan1.cc
 DOMAIN-SUFFIX,czzy88.com
 DOMAIN-SUFFIX,czzy22.com
 DOMAIN-SUFFIX,czzy66.com
+DOMAIN-SUFFIX,cz233.com
 #在线之家（直连）
 DOMAIN-SUFFIX,zxzja.com
 DOMAIN-SUFFIX,zxzjhd.com
@@ -21,6 +22,8 @@ DOMAIN-SUFFIX,zxzj.pro
 #低端影视（直连）
 DOMAIN-SUFFIX,ddys.pro
 DOMAIN-SUFFIX,ddys.mov
+#AGE动漫（直连）
+DOMAIN-SUFFIX,agedm.org
 #索尼资源（直连）
 DOMAIN-SUFFIX,suoniapi.com
 DOMAIN,v3.sxzyhuij.com
