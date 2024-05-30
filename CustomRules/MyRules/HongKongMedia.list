@@ -11,7 +11,8 @@ PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
 
-#myTVSUPER
+
+#   myTVSUPER
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
