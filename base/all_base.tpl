@@ -272,6 +272,7 @@ dns:
     - "+.subsite.cloudns.ch"
     - "+.subdomain.cloudns.ch"
     - "+.kcfc.eu.org"
+    - "+.jhgxwl.cn"
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
