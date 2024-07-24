@@ -11,5 +11,6 @@ DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,quark.cn
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,jd.com
-DOMAIN,portal.azure.com
-DOMAIN-SUFFIX,netflixtown.com
+# Steam Download
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamserver.net
