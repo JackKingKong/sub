@@ -14,3 +14,4 @@ DOMAIN-SUFFIX,jd.com
 # Steam Download
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com
