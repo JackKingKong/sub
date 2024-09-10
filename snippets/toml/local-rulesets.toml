@@ -11,6 +11,10 @@ group = "🌏 自定义代理"
 ruleset = "CustomRules/MyRules/MyProxy.list"
 
 [[rulesets]]
+group = "🌏 UltraMobile"
+ruleset = "CustomRules/MyRules/UltraMobile.list"
+
+[[rulesets]]
 group = "🌏 VPSJP"
 ruleset = "CustomRules/MyRules/VPSJP.list"
 

@@ -24,6 +24,13 @@ rule = ["[]♻️ 节点选择",
 ".*"]
 
 [[custom_groups]]
+name = "🌏 UltraMobile"
+type = "select"
+rule = ["[]♻️ 节点选择",
+"[]DIRECT",
+".*"]
+
+[[custom_groups]]
 name = "🌏 VPSJP"
 type = "select"
 rule = ["[]♻️ 节点选择",

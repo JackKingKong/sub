@@ -11,6 +11,10 @@ group = "🌏 自定义代理"
 ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list"
 
 [[rulesets]]
+group = "🌏 UltraMobile"
+ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list"
+
+[[rulesets]]
 group = "🌏 VPSJP"
 ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list"
 

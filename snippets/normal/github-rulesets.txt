@@ -1,6 +1,7 @@
 #🌏 优先直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/PriorityDirect.list
 🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
 🌏 自定义代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
+🌏 UltraMobile,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
 🌏 VPSJP,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 #🌏  VPSKR,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
 🔎 Google,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Google.list
