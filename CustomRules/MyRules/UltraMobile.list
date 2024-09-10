@@ -1,3 +1,4 @@
 # UltraMobile Wifi_Calling 
 DOMAIN-SUFFIX,mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ultramobile.com
 IP-CIDR6,208.54.0.0/16,no-resolve
