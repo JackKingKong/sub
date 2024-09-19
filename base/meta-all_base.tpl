@@ -110,6 +110,7 @@ dns:
       - 127.0.0.1/32
     domain:
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
+      - "+.proxy302.com"
   enable: true
   #default-nameserver:
     #- 223.5.5.5
@@ -272,6 +273,7 @@ dns:
     - “+.subdomain.cloudns.ch"
     - "+.kcfc.eu.org"
     - "+.jhgxwl.cn"
+    - "+.proxy302.com"
 
 
 {% if local.clash.new_field_name == "true" %}
