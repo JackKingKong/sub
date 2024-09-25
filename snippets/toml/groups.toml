@@ -93,6 +93,12 @@ rule = ["[]♻️ 节点选择",
 "[]DIRECT",
 ".*"]
 
+[[custom_groups]]
+name = "🎬 Instagram"
+type = "select"
+rule = ["[]♻️ 节点选择",
+"[]DIRECT",
+".*"]
 
 [[custom_groups]]
 name = "🎬 YouTube"

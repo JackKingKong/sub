@@ -12,6 +12,7 @@
 🧲 OpenAI`select`[]♻️ 节点选择`[]DIRECT`.*
 📲 聊天软件`select`[]♻️ 节点选择`[]DIRECT`.*
 🎙 Discord`select`[]♻️ 节点选择`[]DIRECT`.*
+🎬 Instagram`select`[]♻️ 节点选择`[]DIRECT`.*
 🎬 YouTube`select`[]♻️ 节点选择`[]DIRECT`.*
 🎬 Netflix`select`[]♻️ 节点选择`[]DIRECT`.*
 🎬 DisneyPlus`select`[]♻️ 节点选择`[]DIRECT`.*

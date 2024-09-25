@@ -11,6 +11,7 @@
 🧲 OpenAI,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/OpenAI.list
 📲 聊天软件,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/ChatSoftware.list
 🎙 Discord,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Discord.list
+🎬 Instagram,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Instagram.list
 🎬 YouTube,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list
 🎬 Netflix,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list

@@ -51,6 +51,10 @@ group = "🎙 Discord"
 ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Discord.list"
 
 [[rulesets]]
+group = "🎬 Instagram"
+ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Instagram.list"
+
+[[rulesets]]
 group = "🎬 YouTube"
 ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list"
 

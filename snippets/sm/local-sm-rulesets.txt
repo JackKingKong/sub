@@ -10,6 +10,7 @@
 #🧲 OpenAI,CustomRules/TAGRules/OpenAI.list
 #📲 聊天软件,CustomRules/TAGRules/ChatSoftware.list
 #🎙 Discord,CustomRules/TAGRules/Discord.list
+#🎬 Instagram,CustomRules/TAGRules/Instagram.list
 🎬 YouTube,CustomRules/TAGRules/YouTube.list
 🎬 Netflix,CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,CustomRules/TAGRules/DisneyPlus.list

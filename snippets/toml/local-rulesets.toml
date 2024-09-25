@@ -51,6 +51,10 @@ group = "🎙 Discord"
 ruleset = "CustomRules/TAGRules/Discord.list"
 
 [[rulesets]]
+group = "🎬 Instagram"
+ruleset = "CustomRules/TAGRules/Instagram.list"
+
+[[rulesets]]
 group = "🎬 YouTube"
 ruleset = "CustomRules/TAGRules/YouTube.list"
 

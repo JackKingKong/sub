@@ -10,6 +10,7 @@
 #🧲 OpenAI,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/OpenAI.list
 #📲 聊天软件,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/ChatSoftware.list
 #🎙 Discord,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Discord.list
+#🎬 Instagram,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Instagram.list
 🎬 YouTube,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list
 🎬 Netflix,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list
