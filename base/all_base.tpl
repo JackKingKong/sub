@@ -272,7 +272,7 @@ dns:
     - "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
     - "+.subdomain.cloudns.ch"
-    - "+.kcfc.eu.org"
+    - "+.xigu.eu.org"
     - "+.jhgxwl.cn"
     - "+.proxy302.com"
 
