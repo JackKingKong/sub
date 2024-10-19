@@ -275,7 +275,6 @@ dns:
     - "+.xigu.eu.org"
     - "+.jhgxwl.cn"
     - "+.proxy302.com"
-    - "+.azure.com"
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
