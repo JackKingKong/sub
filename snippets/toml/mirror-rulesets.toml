@@ -1,190 +1,190 @@
 #[[rulesets]]
 #group = "🌏 优先直连"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/PriorityDirect.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/PriorityDirect.list"
 
 [[rulesets]]
 group = "🌏 自定义直连"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list"
 
 [[rulesets]]
 group = "🌏 自定义代理"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list"
 
 [[rulesets]]
 group = "🌏 UltraMobile"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list"
 
 [[rulesets]]
 group = "🌏 VPSJP"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list"
 
 #[[rulesets]]
 #group = "🌏 VPSKR"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list"
 
 [[rulesets]]
 group = "🔎 Google"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Google.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Google.list"
 
 [[rulesets]]
 group = "🔎 Bing"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Bing.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Bing.list"
 
 [[rulesets]]
 group = "🔎 Yahoo"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Yahoo.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Yahoo.list"
 
 [[rulesets]]
 group = "🗺 Speedtest"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Speedtest.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Speedtest.list"
 
 [[rulesets]]
 group = "🧲 OpenAI"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/OpenAI.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/OpenAI.list"
 
 [[rulesets]]
 group = "📲 聊天软件"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/ChatSoftware.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/ChatSoftware.list"
 
 [[rulesets]]
 group = "🎙 Discord"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Discord.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Discord.list"
 
 [[rulesets]]
 group = "🎬 Instagram"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Instagram.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Instagram.list"
 
 [[rulesets]]
 group = "🎬 YouTube"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list"
 
 [[rulesets]]
 group = "🎬 Netflix"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Netflix.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Netflix.list"
 
 [[rulesets]]
 group = "🎬 DisneyPlus"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list"
 
 [[rulesets]]
 group = "🎬 HBOGO"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOGO.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOGO.list"
 
 [[rulesets]]
 group = "🎬 AppleTV+"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleTV%2B.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleTV%2B.list"
 
 [[rulesets]]
 group = "🎬 PrimeVideo"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/PrimeVideo.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/PrimeVideo.list"
 
 [[rulesets]]
 group = "🎬 HBOMAX"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOMAX.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOMAX.list"
 
 [[rulesets]]
 group = "🎬 香港媒体"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/HongKongMedia.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/HongKongMedia.list"
 
 [[rulesets]]
 group = "🎬 台湾媒体"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/TaiwanMedia.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/TaiwanMedia.list"
 
 [[rulesets]]
 group = "🎬 日本媒体"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/JapaneseMedia.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/JapaneseMedia.list"
 
 [[rulesets]]
 group = "🎬 韩国媒体"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/KoreanMedia.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/KoreanMedia.list"
 
 [[rulesets]]
 group = "🎬 B站港澳台"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/BilibiliHKTW.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/BilibiliHKTW.list"
 
 [[rulesets]]
 group = "🎬 B站东南亚"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/BilibiliSoutheastAsia.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/BilibiliSoutheastAsia.list"
 
 [[rulesets]]
 group = "🎬 EMBY"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/EMBY.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/EMBY.list"
 
 [[rulesets]]
 group = "🎬 爱奇艺"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/iQIYI.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/iQIYI.list"
 
 [[rulesets]]
 group = "🎬 XPTV"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/XPTV.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/XPTV.list"
 
 [[rulesets]]
 group = "🎶 TikTok"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/TikTok.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/TikTok.list"
 
 [[rulesets]]
 group = "🎵 Spotify"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Spotify.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Spotify.list"
 
 [[rulesets]]
 group = "🎵 AppleMusic"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleMusic.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleMusic.list"
 
 [[rulesets]]
 group = "🎵 其他国外音乐"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/OtherForeignMusic.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/OtherForeignMusic.list"
 
 [[rulesets]]
 group = "🌏 国外流媒体"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/ForeignStreamingMedia.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/ForeignStreamingMedia.list"
 
 #[[rulesets]]
 #group = "🌏 国内流媒体"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DomesticStreamingMedia.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DomesticStreamingMedia.list"
 
 [[rulesets]]
 group = "🔖 OneDrive"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/OneDrive.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/OneDrive.list"
 
 [[rulesets]]
 group = "☁️ iCloud"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/iCloud.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/iCloud.list"
 
 [[rulesets]]
 group = "🧩 微软服务"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/MicrosoftServices.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/MicrosoftServices.list"
 
 [[rulesets]]
 group = "🍎 苹果服务"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleServices.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleServices.list"
 
 #[[rulesets]]
 #group = "🎮 游戏平台"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/GamePlatform.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/GamePlatform.list"
 
 #[[rulesets]]
 #group = "🎮 游戏下载"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/GameDownload.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/GameDownload.list"
 
 [[rulesets]]
 group = "📪 邮件服务"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/MailServices.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/MailServices.list"
 
 #[[rulesets]]
 #group = "🎯 P2P下载"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/P2PDownload.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/P2PDownload.list"
 
 #[[rulesets]]
 #group = "🛑 全球拦截"
-#ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/AdReject.list"
+#ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/AdReject.list"
 
 [[rulesets]]
 group = "🌏 全球代理"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/GlobaProxy.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/GlobaProxy.list"
 
 [[rulesets]]
 group = "🌏 全球直连"
-ruleset = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/GlobaDirect.list"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/GlobaDirect.list"
 
 [[rulesets]]
 group = "🐟 漏网之鱼"
