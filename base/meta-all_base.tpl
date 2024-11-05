@@ -111,6 +111,8 @@ dns:
     domain:
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
       - "+.proxy302.com"
+      - "+.iproyal.com"
+      - "+.smartproxy.com"
   enable: true
   #default-nameserver:
     #- 223.5.5.5
@@ -274,6 +276,8 @@ dns:
     - "+.xigu.eu.org"
     - "+.jhgxwl.cn"
     - "+.proxy302.com"
+    - "+.iproyal.com"
+    - "+.smartproxy.com"
 
 
 {% if local.clash.new_field_name == "true" %}
