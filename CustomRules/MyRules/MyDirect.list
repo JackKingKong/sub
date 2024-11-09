@@ -18,14 +18,3 @@ DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamcontents.com
-# Talkatone
-DOMAIN-SUFFIX,inmobi.com
-DOMAIN-SUFFIX,mobilefuse.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,kochava.com
-DOMAIN-SUFFIX,cohere.com
-DOMAIN-SUFFIX,ip-api.com
-IP-CIDR,50.117.27.0/24,no-resolve
-IP-CIDR,69.46.75.0/24,no-resolve
-IP-CIDR,205.164.56.0/24,no-resolve
-IP-CIDR,63.251.124.0/24,no-resolve
