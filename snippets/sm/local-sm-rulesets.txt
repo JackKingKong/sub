@@ -1,6 +1,7 @@
 #🌏 优先直连,CustomRules/MaYingRules/PriorityDirect.list
 🌏 自定义直连,CustomRules/MyRules/MyDirect.list
 #🌏 自定义代理,CustomRules/MyRules/MyProxy.list
+#🌏 自定义拦截,CustomRules/MyRules/MyReject.list
 #🌏 UltraMobile,CustomRules/MyRules/UltraMobile.list
 #🌏 VPSJP,CustomRules/MyRules/VPSJP.list
 #🌏 VPSKR,CustomRules/MyRules/VPSKR.list

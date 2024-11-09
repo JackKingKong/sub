@@ -24,6 +24,14 @@ rule = ["[]♻️ 节点选择",
 ".*"]
 
 [[custom_groups]]
+name = "🌏 自定义拦截"
+type = "select"
+rule = ["[]REJECT",
+"[]♻️ 节点选择",
+"[]DIRECT",
+".*"]
+
+[[custom_groups]]
 name = "🌏 UltraMobile"
 type = "select"
 rule = ["[]♻️ 节点选择",

@@ -11,6 +11,10 @@ group = "🌏 自定义代理"
 ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list"
 
 [[rulesets]]
+group = "🌏 自定义拦截"
+ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list"
+
+[[rulesets]]
 group = "🌏 UltraMobile"
 ruleset = "https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list"
 
