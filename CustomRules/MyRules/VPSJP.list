@@ -2,4 +2,5 @@
 DOMAIN-SUFFIX,japaneast.cloudapp.azure.com
 DOMAIN-SUFFIX,japanwest.cloudapp.azure.com
 DOMAIN,azu.subsite.cloudns.ch
-DOMAIN,www.xigu.eu.org
+DOMAIN,sub.xigu.eu.org
+DOMAIN,ociamd.xigu.eu.org
