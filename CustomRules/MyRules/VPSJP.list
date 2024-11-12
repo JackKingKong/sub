@@ -1,8 +1,10 @@
 # Auzre Cloud VPS
 DOMAIN-SUFFIX,japaneast.cloudapp.azure.com
 DOMAIN-SUFFIX,japanwest.cloudapp.azure.com
-DOMAIN,azu.subsite.cloudns.ch
-DOMAIN,oci.subsite.cloudns.ch
-DOMAIN,ms.xigu.eu.org
-DOMAIN,azu.xigu.eu.org
-DOMAIN,oci.xigu.eu.org
+DOMAIN-SUFFIX,subsite.cloudns.ch
+DOMAIN-SUFFIX,xigu.eu.org
+#DOMAIN,azu.subsite.cloudns.ch
+#DOMAIN,oci.subsite.cloudns.ch
+#DOMAIN,ms.xigu.eu.org
+#DOMAIN,azu.xigu.eu.org
+#DOMAIN,oci.xigu.eu.org
