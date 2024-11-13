@@ -22,9 +22,9 @@ ruleset = "CustomRules/MyRules/UltraMobile.list"
 group = "🌏 VPSJP"
 ruleset = "CustomRules/MyRules/VPSJP.list"
 
-#[[rulesets]]
-#group = "🌏 VPSKR"
-#ruleset = "CustomRules/MyRules/VPSKR.list"
+[[rulesets]]
+group = "🌏 VPSKR"
+ruleset = "CustomRules/MyRules/VPSKR.list"
 
 [[rulesets]]
 group = "🔎 Google"

@@ -45,12 +45,12 @@ rule = ["[]♻️ 节点选择",
 "[]DIRECT",
 ".*"]
 
-#[[custom_groups]]
-#name = "🌏 VPSKR"
-#type = "select"
-#rule = ["[]♻️ 节点选择",
-#"[]DIRECT",
-#".*"]
+[[custom_groups]]
+name = "🌏 VPSKR"
+type = "select"
+rule = ["[]♻️ 节点选择",
+"[]DIRECT",
+".*"]
 
 [[custom_groups]]
 name = "🔎 Google"

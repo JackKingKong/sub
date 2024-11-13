@@ -18,12 +18,3 @@ DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamcontents.com
-# Azure JP VPS
-DOMAIN-SUFFIX,japaneast.cloudapp.azure.com
-DOMAIN-SUFFIX,japanwest.cloudapp.azure.com
-DOMAIN,ms.xigu.eu.org
-DOMAIN,azu.xigu.eu.org
-DOMAIN,azu.subsite.cloudns.ch
-DOMAIN,oci.subsite.cloudns.ch
-DOMAIN,oci.xigu.eu.org
-IP-CIDR,146.56.42.237/32,no-resolve

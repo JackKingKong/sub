@@ -1,2 +1,7 @@
-# OCI JP VPS
-IP-CIDR,150.230.4.51/32,no-resolve
+# Auzre Cloud JP VPS
+DOMAIN-SUFFIX,japaneast.cloudapp.azure.com
+DOMAIN-SUFFIX,japanwest.cloudapp.azure.com
+DOMAIN,ms.xigu.eu.org
+DOMAIN,azu.xigu.eu.org
+DOMAIN,azu.subsite.cloudns.ch
+
