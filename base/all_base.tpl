@@ -275,6 +275,7 @@ dns:
     - "+.subsite.cloudns.ch"
     - "+.subdomain.cloudns.ch"
     - "+.xigu.eu.org"
+    - "+.oraclevcn.com"
     - "+.jhgxwl.cn"
     - "+.proxy302.com"
     - "+.iproyal.com"
