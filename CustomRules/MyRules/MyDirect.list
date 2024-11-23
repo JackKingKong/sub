@@ -18,6 +18,5 @@ DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamcontents.com
-# HK VPS
-IP-CIDR,47.83.220.23/32,no-resolve
-IP-CIDR,47.237.110.125/32,no-resolve
+# Ali HK VPS
+IP-CIDR,47.239.31.138/32,no-resolve
