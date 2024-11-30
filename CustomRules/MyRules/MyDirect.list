@@ -20,5 +20,5 @@ DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamcontents.com
 # Ali HK VPS
 IP-CIDR,47.239.31.138/32,no-resolve
-# Ali SG VPS
-IP-CIDR,47.236.20.27/32,no-resolve
+# ClawCloud HK VPS
+IP-CIDR,8.210.28.245/32,no-resolve
