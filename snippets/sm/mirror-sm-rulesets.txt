@@ -15,7 +15,7 @@
 🎬 YouTube,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list
 🎬 Netflix,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list
-🎬 HBOGO,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOGO.list
+#🎬 HBOGO,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOGO.list
 🎬 AppleTV+,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleTV+.list
 🎬 PrimeVideo,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/PrimeVideo.list
 🎬 HBOMAX,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOMAX.list

@@ -18,9 +18,9 @@ ruleset = "CustomRules/MyRules/MyReject.list"
 group = "🌏 UltraMobile"
 ruleset = "CustomRules/MyRules/UltraMobile.list"
 
-[[rulesets]]
-group = "🌏 VPSJP"
-ruleset = "CustomRules/MyRules/VPSJP.list"
+#[[rulesets]]
+#group = "🌏 VPSJP"
+#ruleset = "CustomRules/MyRules/VPSJP.list"
 
 [[rulesets]]
 group = "🌏 VPSKR"
@@ -70,9 +70,9 @@ ruleset = "CustomRules/TAGRules/Netflix.list"
 group = "🎬 DisneyPlus"
 ruleset = "CustomRules/TAGRules/DisneyPlus.list"
 
-[[rulesets]]
-group = "🎬 HBOGO"
-ruleset = "CustomRules/TAGRules/HBOGO.list"
+#[[rulesets]]
+#group = "🎬 HBOGO"
+#ruleset = "CustomRules/TAGRules/HBOGO.list"
 
 [[rulesets]]
 group = "🎬 AppleTV+"

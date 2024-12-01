@@ -15,7 +15,7 @@
 🎬 YouTube,CustomRules/TAGRules/YouTube.list
 🎬 Netflix,CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,CustomRules/TAGRules/DisneyPlus.list
-🎬 HBOGO,CustomRules/TAGRules/HBOGO.list
+#🎬 HBOGO,CustomRules/TAGRules/HBOGO.list
 🎬 AppleTV+,CustomRules/TAGRules/AppleTV+.list
 🎬 PrimeVideo,CustomRules/TAGRules/PrimeVideo.list
 🎬 HBOMAX,CustomRules/TAGRules/HBOMAX.list

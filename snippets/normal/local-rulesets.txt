@@ -4,7 +4,7 @@
 🌏 自定义代理,CustomRules/MyRules/MyProxy.list
 🌏 UltraMobile,CustomRules/MyRules/UltraMobile.list
 🌏 VPSJP,CustomRules/MyRules/VPSJP.list
-🌏 VPSKR,CustomRules/MyRules/VPSKR.list
+#🌏 VPSKR,CustomRules/MyRules/VPSKR.list
 🔎 Google,CustomRules/TAGRules/Google.list
 🔎 Bing,CustomRules/TAGRules/Bing.list
 🔎 Yahoo,CustomRules/TAGRules/Yahoo.list
@@ -16,7 +16,7 @@
 🎬 YouTube,CustomRules/TAGRules/YouTube.list
 🎬 Netflix,CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,CustomRules/TAGRules/DisneyPlus.list
-🎬 HBOGO,CustomRules/TAGRules/HBOGO.list
+#🎬 HBOGO,CustomRules/TAGRules/HBOGO.list
 🎬 AppleTV+,CustomRules/TAGRules/AppleTV%2B.list
 🎬 PrimeVideo,CustomRules/TAGRules/PrimeVideo.list
 🎬 HBOMAX,CustomRules/TAGRules/HBOMAX.list

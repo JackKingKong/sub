@@ -4,7 +4,7 @@
 🌏 自定义代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 🌏 UltraMobile,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
 🌏 VPSJP,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
-🌏 VPSKR,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
+#🌏 VPSKR,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
 🔎 Google,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Google.list
 🔎 Bing,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Bing.list
 🔎 Yahoo,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Yahoo.list
@@ -16,7 +16,7 @@
 🎬 YouTube,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/YouTube.list
 🎬 Netflix,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Netflix.list
 🎬 DisneyPlus,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list
-🎬 HBOGO,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOGO.list
+#🎬 HBOGO,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOGO.list
 🎬 AppleTV+,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/AppleTV%2B.list
 🎬 PrimeVideo,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/PrimeVideo.list
 🎬 HBOMAX,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/HBOMAX.list
