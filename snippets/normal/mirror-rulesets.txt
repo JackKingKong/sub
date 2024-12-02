@@ -1,7 +1,7 @@
 #🌏 优先直连,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MaYingRules/PriorityDirect.list
 🌏 自定义直连,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
 🌏 自定义代理,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
-🌏 自定义代理,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
+🌏 自定义拦截,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list
 🌏 UltraMobile,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
 🌏 VPSJP,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 #🌏 VPSKR,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
