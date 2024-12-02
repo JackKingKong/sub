@@ -24,3 +24,5 @@ IP-CIDR,47.239.31.138/32,no-resolve
 IP-CIDR,8.210.28.245/32,no-resolve
 # ClawCloud JP VPS
 #IP-CIDR,47.245.56.198/32,no-resolve
+# DMIT LAX VPS
+IP-CIDR,154.26.188.75/32,no-resolve
