@@ -5,7 +5,7 @@
 🌏 自定义拦截`select`[]REJECT`[]♻️ 节点选择`[]DIRECT`.*
 🌏 UltraMobile`select`[]♻️ 节点选择`[]DIRECT`.*
 🌏 VPSJP`select`[]♻️ 节点选择`[]DIRECT`.*
-#🌏 VPSKR`select`[]♻️ 节点选择`[]DIRECT`.*
+🌏 VPSKR`select`[]♻️ 节点选择`[]DIRECT`.*
 🔎 Google`select`[]♻️ 节点选择`[]DIRECT`.*
 🔎 Bing`select`[]♻️ 节点选择`[]DIRECT`.*
 🔎 Yahoo`select`[]♻️ 节点选择`[]DIRECT`.*

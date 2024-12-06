@@ -2,7 +2,7 @@
 DOMAIN-SUFFIX,koreacentral.cloudapp.azure.com
 DOMAIN-SUFFIX,koreasouth.cloudapp.azure.com
 # Oracle Cloud KR VPS
-#DOMAIN,oci.subsite.cloudns.ch
-#DOMAIN,oci.xigu.eu.org
-#IP-CIDR,146.56.42.237/32,no-resolve
+DOMAIN,kr.subsite.cloudns.ch
+DOMAIN,kr.xigu.eu.org
+IP-CIDR,146.56.42.237/32,no-resolve
 

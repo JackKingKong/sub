@@ -18,9 +18,9 @@ ruleset = "CustomRules/MyRules/MyReject.list"
 group = "🌏 UltraMobile"
 ruleset = "CustomRules/MyRules/UltraMobile.list"
 
-#[[rulesets]]
-#group = "🌏 VPSJP"
-#ruleset = "CustomRules/MyRules/VPSJP.list"
+[[rulesets]]
+group = "🌏 VPSJP"
+ruleset = "CustomRules/MyRules/VPSJP.list"
 
 [[rulesets]]
 group = "🌏 VPSKR"

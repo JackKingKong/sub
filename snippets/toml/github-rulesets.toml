@@ -22,9 +22,9 @@ ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/M
 group = "🌏 VPSJP"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list"
 
-#[[rulesets]]
-#group = "🌏 VPSKR"
-#ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list"
+[[rulesets]]
+group = "🌏 VPSKR"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list"
 
 [[rulesets]]
 group = "🔎 Google"
