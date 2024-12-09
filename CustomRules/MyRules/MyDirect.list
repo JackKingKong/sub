@@ -18,18 +18,19 @@ DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamcontents.com
-# Ali HK VPS
-#IP-CIDR,47.239.31.138/32,no-resolve
 # ClawCloud HK VPS
 DOMAIN,hk.subsite.cloudns.ch
 DOMAIN,hk.xigu.eu.org
 IP-CIDR,8.210.28.245/32,no-resolve
+# V.PS SL VPS
+DOMAIN,sj.subsite.cloudns.ch
+DOMAIN,azu.subsite.cloudns.ch
+DOMAIN,sj.xigu.eu.org
+DOMAIN,sub.xigu.eu.org
+IP-CIDR,146.19.116.46/32,no-resolve
 # DMIT LA VPS
 DOMAIN,la.subsite.cloudns.ch
 DOMAIN,la.xigu.eu.org
 IP-CIDR,154.26.188.75/32,no-resolve
-# V.PS SL VPS
-DOMAIN,sj.subsite.cloudns.ch
-DOMAIN,sj.xigu.eu.org
-DOMAIN,sub.xigu.eu.org
-IP-CIDR,146.19.116.46/32,no-resolve
+# Ali HK VPS
+#IP-CIDR,47.239.31.138/32,no-resolve
