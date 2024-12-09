@@ -1,6 +1,5 @@
 # Auzre Cloud JP VPS
 DOMAIN-SUFFIX,japaneast.cloudapp.azure.com
 DOMAIN-SUFFIX,japanwest.cloudapp.azure.com
-DOMAIN,ms.xigu.eu.org
+DOMAIN,jp.xigu.eu.org
 IP-CIDR,20.210.240.136/32,no-resolve
-

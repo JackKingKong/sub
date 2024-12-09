@@ -27,6 +27,7 @@ DOMAIN,sj.subsite.cloudns.ch
 DOMAIN,azu.subsite.cloudns.ch
 DOMAIN,sj.xigu.eu.org
 DOMAIN,sub.xigu.eu.org
+DOMAIN,ms.xigu.eu.org
 IP-CIDR,146.19.116.46/32,no-resolve
 # DMIT LA VPS
 DOMAIN,la.subsite.cloudns.ch
