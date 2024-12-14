@@ -275,6 +275,8 @@ dns:
     - "+.subsite.cloudns.ch"
     - "+.subdomain.cloudns.ch"
     - "+.xigu.eu.org"
+    - "+.gugg.us.kg"
+    - "+.kcfc.us.kg"
     - "+.oraclevcn.com"
     - "+.jhgxwl.cn"
     - "+.proxy302.com"
