@@ -274,6 +274,7 @@ dns:
     - "+.subsite.cloudns.ch"
     - “+.subdomain.cloudns.ch"
     - "+.xigu.eu.org"
+    - "+.aufa.eu.org"
     - "+.gugg.us.kg"
     - "+.kcfc.us.kg"
     - "+.oraclevcn.com"
