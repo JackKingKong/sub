@@ -8,12 +8,7 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
 hosts:
   #mtalk.google.com: 108.177.125.188
-  #raw.githubusercontent.com: 151.101.76.133
-  raw.githubusercontent.com: 185.199.108.133
-  #time.android.com: 203.107.6.88
-  #epdg.epc.mnc260.mcc310.pub.3gppnetwork.org: 208.54.36.3
-  #ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org: 208.54.88.35
-  #ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org: 208.54.2.99
+  raw.githubusercontent.com: 151.101.76.133
 dns:
   enabled: true
   ipv6: true
@@ -23,33 +18,36 @@ dns:
   #prefer-h3: true
   use-hosts: true
   nameserver-policy:
-    #"*.google.com": https://1.1.1.1/dns-query
-    #"*.tw": https://1.1.1.1/dns-query
-    #testflight.apple.com: https://1.1.1.1/dns-query
-    "*.tmall.com": 223.5.5.5
-    "*.taobao.com": 223.5.5.5
-    "*.alicdn.com": 223.5.5.5
-    "*.aliyun.com": 223.5.5.5
-    "*.alipay*.com": 223.5.5.5
-    "*.alibaba*.com": 223.5.5.5
-    "*.alimama*.com": 223.5.5.5
-    "*.qq.com": 119.29.29.29
-    "*.tencent.com": 119.29.29.29
-    "*.weixin.com": 119.29.29.29
-    "*.qpic.cn": 114.114.114.114
-    "*.jd.com": 114.114.114.114
-    "*.bilibili.com": 114.114.114.114
-    hdslb.com: 114.114.114.114
-    "*.163.com": 114.114.114.114
-    "*.126.com": 114.114.114.114
-    "*.126.net": 114.114.114.114
-    "*.127.net": 114.114.114.114
-    "*.netease.com": 114.114.114.114
-    "*.10010.com": 114.114.114.114
-    "*.unicompayment.com": 114.114.114.114
-    "*.ximalaya.com": 114.114.114.114
-    "*.baidu.com": 114.114.114.114
-    "*.bdstatic.com": 114.114.114.114
+    "+.pphimalayanrt.com": 223.5.5.5
+    st.dl.eccdnx.com: 223.5.5.5
+    "+.tmall.com": 223.5.5.5
+    "+.taobao.com": 223.5.5.5
+    "+.alicdn.com": 223.5.5.5
+    "+.aliyun.com": 223.5.5.5
+    "+.alipay*.com": 223.5.5.5
+    "+.alibaba*.com": 223.5.5.5
+    "+.alimama*.com": 223.5.5.5
+    "+.baidu.com": 223.5.5.5
+    "+.bdstatic.com": 223.5.5.5
+    "+.qq.com": 119.29.29.29
+    "+.tencent.com": 119.29.29.29
+    "+.weixin.com": 119.29.29.29
+    "+.qpic.cn": 119.29.29.29
+    "+.jd.com": 119.29.29.29
+    "+.bilibili.com": 119.29.29.29
+    "+.hdslb.com": 119.29.29.29
+    "+.163.com": 119.29.29.29
+    "+.126.com": 119.29.29.29
+    "+.126.net": 119.29.29.29
+    "+.127.net": 119.29.29.29
+    "+.netease.com": 119.29.29.29
+    "+.bilivideo.+": 119.29.29.29
+    "+.iqiyi.com": 119.29.29.29 
+    "+.douyinvod.com": 180.184.1.1
+    "+.douyin.com": 180.184.1.1
+    "+.douyincdn.com": 180.184.1.1
+    "+.douyinpic.com": 180.184.1.1
+    "+.feishu.cn": 180.184.1.1
   nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
