@@ -11,10 +11,10 @@
 🎬 DisneyPlus,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list
 🎬 AppleTV+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleTV/AppleTV.list
 🎬 PrimeVideo,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
-🎬 HBO,https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/HBO/HBO.list
-🎬 HBO,https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/HBO/HBOAsia.list
-🎬 HBO,https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/HBO/HBOHK.list
-🎬 HBO,https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/HBO/HBOUSA.list
+🎬 HBO,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list
+🎬 HBO,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBOAsia.list
+🎬 HBO,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBOHK.list
+🎬 HBO,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBOUSA.list
 🎬 TikTok,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list
 🎬 香港媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/myTVSUPER/myTVSUPER.list
 🎬 香港媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVB/TVB.list
