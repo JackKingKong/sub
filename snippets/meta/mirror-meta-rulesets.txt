@@ -45,7 +45,7 @@
 #🎯 P2P下载,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/P2PDownload.list
 #🛑 全球拦截,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/BanADAll.list
 🌏 全球代理,[]GEOSITE,geolocation-!cn
-🌏 全球直连,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.list.list
+🌏 全球直连,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.list
 🌏 全球直连,https://ghp.ci/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.list
 🌏 全球直连,[]GEOSITE,cn
 🌏 全球直连,[]GEOIP,CN
