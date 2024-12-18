@@ -44,6 +44,7 @@
 📪 邮件服务,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/MailServices.list
 #🎯 P2P下载,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/P2PDownload.list
 #🛑 全球拦截,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/BanADAll.list
-🌏 全球代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/ForeignWebsite.Meta.list
+#🌏 全球代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/ForeignWebsite.Meta.list
+🌏 全球代理,[]GEOSITE,geolocation-!cn
 🌏 全球直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/DomesticWebsite.Meta.list
 🐟 漏网之鱼,[]FINAL
