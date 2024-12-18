@@ -44,6 +44,10 @@
 📪 邮件服务,CustomRules/TAGRules/MailServices.list
 #🎯 P2P下载,CustomRules/TAGRules/P2PDownload.list
 #🛑 全球拦截,CustomRules/MyRules/BanADAll.list
-🌏 全球代理,CustomRules/MyRules/ForeignWebsite.Meta.list
-🌏 全球直连,CustomRules/MyRules/DomesticWebsite.Meta.list
+🌏 全球代理,[]GEOSITE,geolocation-!cn
+🌏 全球直连,CustomRules/MyRules/Lancidr.list.list
+🌏 全球直连,CustomRules/MyRules/Applications.list
+🌏 全球直连,[]GEOSITE,cn
+🌏 全球直连,[]GEOIP,CN
 🐟 漏网之鱼,[]FINAL
+
