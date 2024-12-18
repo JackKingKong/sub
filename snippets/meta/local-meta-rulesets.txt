@@ -45,8 +45,8 @@
 #🎯 P2P下载,CustomRules/TAGRules/P2PDownload.list
 #🛑 全球拦截,CustomRules/MyRules/BanADAll.list
 🌏 全球代理,[]GEOSITE,geolocation-!cn
-🌏 全球直连,CustomRules/MyRules/Lancidr.list
 🌏 全球直连,CustomRules/MyRules/Applications.list
+🌏 全球直连,CustomRules/MyRules/Lancidr.list
 🌏 全球直连,[]GEOSITE,cn
 🌏 全球直连,[]GEOIP,CN
 🐟 漏网之鱼,[]FINAL
