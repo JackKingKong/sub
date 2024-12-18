@@ -40,6 +40,7 @@
 🎵 YouTubeMusic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list
 🎵 Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list
 🎮 国区游戏,[]GEOSITE,category-games@cn
+🌏 全球拦截,[]GEOSITE,category-ads-all
 🌏 全球代理,[]GEOSITE,geolocation-!cn
 🌏 全球直连,[]GEOSITE,cn
 🌏 全球直连,[]GEOIP,CN
