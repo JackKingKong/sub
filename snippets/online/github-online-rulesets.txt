@@ -1,6 +1,4 @@
 🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect-online.list
-🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.list
-🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.list
 🌏 自定义代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 🌏 自定义拦截,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list
 🌏 UltraMobile,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
@@ -42,6 +40,9 @@
 🎮 国区游戏,[]GEOSITE,category-games@cn
 🌏 全球拦截,[]GEOSITE,category-ads-all
 🌏 全球代理,[]GEOSITE,geolocation-!cn
+🌏 全球直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.list
+🌏 全球直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.list
+🌏 全球直连,[]GEOSITE,private
 🌏 全球直连,[]GEOSITE,cn
-🌏 全球直连,[]GEOIP,CN
+🌏 全球直连,[]GEOIP,cn
 🐟 漏网之鱼,[]FINAL
