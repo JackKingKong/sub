@@ -65,7 +65,7 @@ sniffer:
     - "dlg.io.mi.com"
     - "+.apple.com"
 hosts:
-  raw.githubusercontent.com: 185.199.108.133
+  raw.githubusercontent.com: 151.101.76.133
 dns:
   enabled: true
   ipv6: true
