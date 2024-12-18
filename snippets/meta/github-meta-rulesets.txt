@@ -47,4 +47,5 @@
 #🌏 全球代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/ForeignWebsite.Meta.list
 🌏 全球代理,[]GEOSITE,geolocation-!cn
 🌏 全球直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/DomesticWebsite.Meta.list
+🌏 全球直连,[]GEOSITE,cn
 🐟 漏网之鱼,[]FINAL
