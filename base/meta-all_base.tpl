@@ -13,6 +13,8 @@ ipv6: false
 #【Meta专属】:true使用geoip.dat数据库,false(默认)使用mmdb数据库
 geodata-mode: true
 geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
 #【Meta专属】:自定义geodata url
 geox-url:
   geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
