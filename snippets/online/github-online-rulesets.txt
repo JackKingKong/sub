@@ -1,4 +1,4 @@
-🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
+🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect-online.list
 🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.list
 🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.list
 🌏 自定义代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
