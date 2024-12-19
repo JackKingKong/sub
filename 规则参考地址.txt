@@ -1,0 +1,19 @@
+分流规则：
+https://github.com/blackmatrix7/ios_rule_script/tree/master/rule
+https://github.com/dler-io/Rules/tree/main
+
+
+
+Geoip 加强版类别：https://github.com/Loyalsoldier/geoip/tree/release/text
+主要是增加了：geoip:cloudflare
+                geoip:cloudfront
+                geoip:facebook
+                geoip:fastly
+                geoip:google
+                geoip:netflix
+                geoip:telegram
+                geoip:twitter
+
+Geosite 原始类别：https://github.com/v2fly/domain-list-community/tree/master/data
+
+Geosite 加强版：https://github.com/Loyalsoldier/v2ray-rules-dat
