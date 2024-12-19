@@ -15,7 +15,7 @@ name = "🇭🇰 自动香港节点"
 type = "url-test"
 rule = ["香港|港|HK|Hong Kong"]
 url = "http://www.google.com/generate_204"
-interval = 21600
+interval = 600
 tolerance = 50
 
 [[custom_groups]]
@@ -31,7 +31,7 @@ name = "🇸🇬 自动狮城节点"
 type = "url-test"
 rule = ["新加坡|狮城|SG|Singapore"]
 url = "http://www.google.com/generate_204"
-interval = 21600
+interval = 600
 tolerance = 50
 
 [[custom_groups]]
@@ -39,7 +39,7 @@ name = "🇯🇵 自动日本节点"
 type = "url-test"
 rule = ["日本|日|JP|Japan"]
 url = "http://www.google.com/generate_204"
-interval = 21600
+interval = 600
 tolerance = 50
 
 [[custom_groups]]
@@ -47,7 +47,7 @@ name = "🇰🇷 自动韩国节点"
 type = "url-test"
 rule = ["韩国|韩|KR|Korea|KOR|Seoul|首尔|春川"]
 url = "http://www.google.com/generate_204"
-interval = 21600
+interval = 600
 tolerance = 50
 
 [[custom_groups]]
@@ -55,7 +55,7 @@ name = "🇺🇲 自动美国节点"
 type = "url-test"
 rule = ["美国|美|US|USA|America|United States"]
 url = "http://www.google.com/generate_204"
-interval = 21600
+interval = 600
 tolerance = 50
 
 #[[custom_groups]]
