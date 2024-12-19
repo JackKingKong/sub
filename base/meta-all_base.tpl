@@ -78,9 +78,39 @@ dns:
   use-hosts: true
   nameserver-policy:
     #【Meta专属】:
-    "geosite:cn": 
-      - https://120.53.53.53/dns-query
-      - https://223.5.5.5/dns-query
+    #"geosite:cn": 
+    #  - https://120.53.53.53/dns-query
+    #  - https://223.5.5.5/dns-query
+    "+.pphimalayanrt.com": 223.5.5.5
+    st.dl.eccdnx.com: 223.5.5.5
+    "+.tmall.com": 223.5.5.5
+    "+.taobao.com": 223.5.5.5
+    "+.alicdn.com": 223.5.5.5
+    "+.aliyun.com": 223.5.5.5
+    "+.alipay*.com": 223.5.5.5
+    "+.alibaba*.com": 223.5.5.5
+    "+.alimama*.com": 223.5.5.5
+    "+.baidu.com": 223.5.5.5
+    "+.bdstatic.com": 223.5.5.5
+    "+.qq.com": 119.29.29.29
+    "+.tencent.com": 119.29.29.29
+    "+.weixin.com": 119.29.29.29
+    "+.qpic.cn": 119.29.29.29
+    "+.jd.com": 119.29.29.29
+    "+.bilibili.com": 119.29.29.29
+    "+.hdslb.com": 119.29.29.29
+    "+.163.com": 119.29.29.29
+    "+.126.com": 119.29.29.29
+    "+.126.net": 119.29.29.29
+    "+.127.net": 119.29.29.29
+    "+.netease.com": 119.29.29.29
+    "+.bilivideo.+": 119.29.29.29
+    "+.iqiyi.com": 119.29.29.29 
+    "+.douyinvod.com": 180.184.1.1
+    "+.douyin.com": 180.184.1.1
+    "+.douyincdn.com": 180.184.1.1
+    "+.douyinpic.com": 180.184.1.1
+    "+.feishu.cn": 180.184.1.1
   nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
