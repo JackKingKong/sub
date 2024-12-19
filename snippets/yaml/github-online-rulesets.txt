@@ -1,42 +1,42 @@
-🌏 自定义直连,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect-online.yaml,86400
-🌏 自定义代理,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.yaml,86400
-🌏 自定义拦截,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.yaml,86400
-🌏 UltraMobile,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.yaml,86400
-🌏 VPSJP,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.yaml,86400
-🌏 VPSKR,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.yaml,86400
-🎬 YouTube,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/YouTube.yaml,86400
-🎬 Netflix,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Netflix.yaml,86400
-🎬 DisneyPlus,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Disney%20Plus.yaml,86400
-🎬 DisneyPlus,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Discovery%20Plus.yaml,86400
-🎬 AppleTV+,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Apple%20TV.yaml,86400
-🎬 PrimeVideo,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Amazon.yaml,86400
-🎬 HBO,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Max.yaml,86400
-🎬 香港媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/myTV%20SUPER.yaml,86400
-🎬 香港媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/ViuTV.yaml,86400
-🎬 台湾媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/KKTV.yaml,86400
-🎬 台湾媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Bahamut.yaml,86400
-🎬 台湾媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Line%20TV.yaml,86400
-🎬 日本媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Abema%20TV.yaml,86400
-#🎬 日本媒体,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.yaml,86400
-🎬 日本媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Niconico.yaml,86400
-#🎬 韩国媒体,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/NaverTV/NaverTV.yaml,86400
-🎬 XPTV,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/XPTV.yaml,86400
-🎬 国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Bilibili.yaml,86400
-🎬 国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/IQIYI.yaml,86400
-🎬 国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Letv.yaml,86400
-🎬 国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Netease%20Music.yaml,86400
-🎬 国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Tencent%20Video.yaml,86400
-🎬 国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Youku.yaml,86400
-🎬 国内网盘,[]GEOSITE,category-netdisk-cn
-🎵 AppleMusic,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Apple%20Music.yaml,86400
-🎵 YouTubeMusic,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/YouTube%20Music.yaml,86400
-🎵 Spotify,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Spotify.yaml,86400
-🎮 国区游戏,[]GEOSITE,category-games@cn
-🌏 全球拦截,[]GEOSITE,category-ads-all
-🌏 全球代理,[]GEOSITE,geolocation-!cn
-🌏 全球直连,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.yaml,86400
-🌏 全球直连,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.yaml,86400
-🌏 全球直连,[]GEOSITE,private
-🌏 全球直连,[]GEOSITE,cn
-🌏 全球直连,[]GEOIP,cn
-🐟 漏网之鱼,[]FINAL
+自定义直连,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect-online.yaml,86400
+自定义代理,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.yaml,86400
+自定义拦截,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.yaml,86400
+UltraMobile,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.yaml,86400
+VPSJP,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.yaml,86400
+VPSKR,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.yaml,86400
+YouTube,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/YouTube.yaml,86400
+Netflix,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Netflix.yaml,86400
+DisneyPlus,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Disney%20Plus.yaml,86400
+DisneyPlus,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Discovery%20Plus.yaml,86400
+AppleTV+,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Apple%20TV.yaml,86400
+PrimeVideo,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Amazon.yaml,86400
+HBO,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Max.yaml,86400
+香港媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/myTV%20SUPER.yaml,86400
+香港媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/ViuTV.yaml,86400
+台湾媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/KKTV.yaml,86400
+台湾媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Bahamut.yaml,86400
+台湾媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Line%20TV.yaml,86400
+日本媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Abema%20TV.yaml,86400
+#日本媒体,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.yaml,86400
+日本媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Niconico.yaml,86400
+#韩国媒体,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/NaverTV/NaverTV.yaml,86400
+XPTV,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/XPTV.yaml,86400
+国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Bilibili.yaml,86400
+国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/IQIYI.yaml,86400
+国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Letv.yaml,86400
+国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Netease%20Music.yaml,86400
+国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Tencent%20Video.yaml,86400
+国内媒体,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Youku.yaml,86400
+国内网盘,[]GEOSITE,category-netdisk-cn
+AppleMusic,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Apple%20Music.yaml,86400
+YouTubeMusic,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/YouTube%20Music.yaml,86400
+Spotify,clash-classic,https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/Spotify.yaml,86400
+国区游戏,[]GEOSITE,category-games@cn
+全球拦截,[]GEOSITE,category-ads-all
+全球代理,[]GEOSITE,geolocation-!cn
+全球直连,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.yaml,86400
+全球直连,clash-classic,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Lancidr.yaml,86400
+全球直连,[]GEOSITE,private
+全球直连,[]GEOSITE,cn
+全球直连,[]GEOIP,cn
+漏网之鱼,[]FINAL
