@@ -59,5 +59,6 @@ IP-CIDR,101.37.27.41/32,no-resolve
 IP-CIDR,114.55.93.169/32,no-resolve
 # JD VPS
 DOMAIN,jd.subdomain.cloudns.ch
+DOMAIN,jd.gugg.us.kg
 DOMAIN,jd.kcfc.us.kg
 IP-CIDR,117.72.34.238/32,no-resolve
