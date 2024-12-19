@@ -1,0 +1,6 @@
+payload:
+# Auzre Cloud JP VPS
+  - DOMAIN-SUFFIX,japaneast.cloudapp.azure.com
+  - DOMAIN-SUFFIX,japanwest.cloudapp.azure.com
+  - DOMAIN,jp.kcfc.us.kg
+  - IP-CIDR,20.210.240.136/32,no-resolve
