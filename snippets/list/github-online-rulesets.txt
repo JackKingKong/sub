@@ -46,6 +46,7 @@
 🎬 XPTV,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/XPTV.list
 🎬 国内网盘,[]GEOSITE,category-netdisk-cn
 🎮 国区游戏,[]GEOSITE,category-games@cn
+🎮 游戏下载,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Game/GameDownload/GameDownload.list
 🌏 全球拦截,[]GEOSITE,category-ads-all
 🌏 全球代理,[]GEOSITE,geolocation-!cn
 🌏 全球直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Applications.list
