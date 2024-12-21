@@ -4,6 +4,8 @@
 🌏 UltraMobile,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
 🌏 VPSJP,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 🌏 VPSKR,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
+🧲 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
+🧲 OpenAI,[]GEOSITE,openai
 🎬 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list
 🎬 Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix.list
 🎬 DisneyPlus,https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/TAGRules/DisneyPlus.list
