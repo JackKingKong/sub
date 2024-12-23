@@ -33,6 +33,7 @@
 🎬 日本媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Abema/Abema.list
 🎬 日本媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.list
 🎬 日本媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Niconico/Niconico.list
+🎬 日本媒体,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/JavJP.list
 🎬 韩国媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/NaverTV/NaverTV.list
 🎬 韩国媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PandoraTV/PandoraTV.list
 🎬 国内媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMedia/ChinaMedia.list
