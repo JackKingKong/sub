@@ -13,7 +13,7 @@ DOMAIN,hk.xigu.eu.org
 DOMAIN,hk.kcfc.us.kg
 IP-CIDR,8.210.28.245/32,no-resolve
 # V.PS SL VPS
-DOMAIN,sj.subsite.cloudns.ch
+DOMAIN,sub.subsite.cloudns.ch
 DOMAIN,azu.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
 DOMAIN,ms.xigu.eu.org
