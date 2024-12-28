@@ -2,11 +2,14 @@
 DOMAIN,warehouse.parkson-market.org
 DOMAIN,huaikhwang.central-world.org
 DOMAIN,link.nobodys.uk
+DOMAIN,ratchada.terminal69.win
 DOMAIN-SUFFIX,kyapi.xyz
 DOMAIN-SUFFIX,subcloud.xyz
 DOMAIN,hknoyk.xyz
 DOMAIN-SUFFIX,nameless13.com
 DOMAIN,gnbqvu.xyz
+DOMAIN,subserver.maying.io
+DOMAIN,sub.ssr.sh
 # ClawCloud HK VPS
 DOMAIN,hk.subsite.cloudns.ch
 DOMAIN,hk.xigu.eu.org
@@ -16,7 +19,6 @@ IP-CIDR,8.210.28.245/32,no-resolve
 DOMAIN,sub.subsite.cloudns.ch
 DOMAIN,azu.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
-DOMAIN,ms.xigu.eu.org
 DOMAIN,sj.kcfc.us.kg
 IP-CIDR,146.19.116.46/32,no-resolve
 # DMIT LA VPS
@@ -25,8 +27,8 @@ DOMAIN,la.xigu.eu.org
 IP-CIDR,154.26.188.75/32,no-resolve
 # Ali VPS
 DOMAIN-SUFFIX,jhgxwl.cn
-DOMAIN,ck.aufa.eu.rog
-DOMAIN,dl.aufa.eu.rog
+DOMAIN,ck.aufa.eu.org
+DOMAIN,dl.aufa.eu.org
 IP-CIDR,101.37.27.41/32,no-resolve
 IP-CIDR,114.55.93.169/32,no-resolve
 IP-CIDR,47.97.165.177/32,no-resolve
