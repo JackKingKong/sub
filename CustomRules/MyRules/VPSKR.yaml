@@ -1,9 +1,0 @@
-payload:
-# Auzre Cloud KR VPS
-  - DOMAIN-SUFFIX,koreacentral.cloudapp.azure.com
-  - DOMAIN-SUFFIX,koreasouth.cloudapp.azure.com
-# Oracle Cloud KR VPS
-  - DOMAIN,kr.xigu.eu.org
-  - DOMAIN,kr.kcfc.us.kg
-  - IP-CIDR,146.56.42.237/32,no-resolve
-
