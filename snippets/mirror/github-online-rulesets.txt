@@ -1,4 +1,4 @@
-🌏 自定义直连,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect-online.list
+🌏 自定义直连,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
 🌏 自定义代理,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 🌏 自定义拦截,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list
 🌏 UltraMobile,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
