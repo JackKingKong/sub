@@ -45,7 +45,7 @@
 🎬 国内媒体,https://github.moeyy.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/zhanqi/zhanqi.list
 🎬 国内媒体,https://github.moeyy.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/51nod/51nod.list
 🎬 国内媒体,https://github.moeyy.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IPTVMainland/IPTVMainland.list
-🎬 国内媒体,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/IPTV-HMT.list
+#🎬 国内媒体,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/IPTV-HMT.list
 🎬 XPTV,https://github.moeyy.xyz/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/XPTV.list
 🎬 国内网盘,[]GEOSITE,category-netdisk-cn
 🎮 游戏直连,[]GEOSITE,category-games@cn
