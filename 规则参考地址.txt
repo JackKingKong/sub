@@ -4,7 +4,7 @@ https://github.com/dler-io/Rules/tree/main
 https://github.com/LM-Firefly/Rules
 
 
-
+Geoip 原始类别：只有国家
 Geoip 加强版类别：https://github.com/Loyalsoldier/geoip/tree/release/text
 主要是增加了：geoip:cloudflare
                 geoip:cloudfront
