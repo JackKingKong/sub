@@ -37,3 +37,5 @@ DOMAIN,jd.subdomain.cloudns.ch
 DOMAIN,jd.gugg.us.kg
 DOMAIN,jd.kcfc.us.kg
 IP-CIDR,117.72.34.238/32,no-resolve
+# AKTV CDN
+IP-CIDR,1.1.1.155/32,no-resolve
