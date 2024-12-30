@@ -8,7 +8,7 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
 hosts:
   #mtalk.google.com: 108.177.125.188
-  raw.githubusercontent.com: 151.101.76.133
+  #raw.githubusercontent.com: 151.101.76.133
   aktv.top: 104.22.49.96
 dns:
   enabled: true
