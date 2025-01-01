@@ -37,4 +37,6 @@ DOMAIN,jd.subdomain.cloudns.ch
 DOMAIN,jd.gugg.us.kg
 DOMAIN,jd.kcfc.us.kg
 IP-CIDR,117.72.34.238/32,no-resolve
+# Github Mirror
+DOMAIN,gh.aufa.eu.org
 
