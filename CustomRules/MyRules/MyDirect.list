@@ -15,12 +15,14 @@ DOMAIN,hk.subsite.cloudns.ch
 DOMAIN,hk.xigu.eu.org
 DOMAIN,hk.kcfc.us.kg
 IP-CIDR,8.210.28.245/32,no-resolve
+IP-CIDR6,2603:c022:8018:5488:cd1:17f8:3491:47ef/128,,no-resolve
 # V.PS SL VPS
 DOMAIN,sub.subsite.cloudns.ch
 DOMAIN,azu.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
 DOMAIN,sj.kcfc.us.kg
 IP-CIDR,146.19.116.46/32,no-resolve
+IP-CIDR6,2604:a840:2::d7/128,no-resolve
 # DMIT LA VPS
 DOMAIN,la.kcfc.us.kg
 DOMAIN,la.xigu.eu.org
