@@ -301,7 +301,8 @@ dns:
     #Other
     - mtalk.google.com
     #UltraMobile
-    - "+.mnc260.mcc310.pub.3gppnetwork.org"
+    #- "+.mnc260.mcc310.pub.3gppnetwork.org"
+    - "+.pub.3gppnetwork.org"
     #My DomainName
     - "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
