@@ -143,6 +143,7 @@ dns:
       - 127.0.0.1/32
     domain:
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
+      - "+.mnc015.mcc234.pub.3gppnetwork.org"
       - "+.proxy302.com"
       - "+.iproyal.com"
       - "+.smartproxy.com"
@@ -300,7 +301,7 @@ dns:
     - activityapi.huya.com.w.cdngslb.com
     #Other
     - mtalk.google.com
-    #UltraMobile
+    #UltraMobile&Giffgaff
     #- "+.mnc260.mcc310.pub.3gppnetwork.org"
     - "+.pub.3gppnetwork.org"
     #My DomainName
