@@ -2,7 +2,7 @@
 https://github.com/blackmatrix7/ios_rule_script/tree/master/rule
 https://github.com/dler-io/Rules/tree/main
 https://github.com/LM-Firefly/Rules
-
+https://github.com/MetaCubeX/meta-rules-dat
 
 Geoip 原始类别：只有国家
 Geoip 加强版类别：https://github.com/Loyalsoldier/geoip/tree/release/text
