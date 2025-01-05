@@ -1,13 +1,374 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+ipv6: false
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat
+  geosite: https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat
+  mmdb: https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb
+find-process-mode: strict
+tcp-concurrent: true
+unified-delay: true
+keep-alive-interval: 3600
+bind-address: "*"
+profile:
+  store-selected: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+    - google.com
+  skip-domain:
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - +.apple.com
+hosts:
+  aktv.top: 172.64.154.91
+dns:
+  enabled: true
+  ipv6: true
+  listen: 0.0.0.0:7874
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  prefer-h3: true
+  use-hosts: true
+  nameserver-policy:
+    +.pphimalayanrt.com: 223.5.5.5
+    st.dl.eccdnx.com: 223.5.5.5
+    +.tmall.com: 223.5.5.5
+    +.taobao.com: 223.5.5.5
+    +.alicdn.com: 223.5.5.5
+    +.aliyun.com: 223.5.5.5
+    +.alipay*.com: 223.5.5.5
+    +.alibaba*.com: 223.5.5.5
+    +.alimama*.com: 223.5.5.5
+    +.baidu.com: 223.5.5.5
+    +.bdstatic.com: 223.5.5.5
+    +.qq.com: 119.29.29.29
+    +.tencent.com: 119.29.29.29
+    +.weixin.com: 119.29.29.29
+    +.qpic.cn: 119.29.29.29
+    +.jd.com: 119.29.29.29
+    +.bilibili.com: 119.29.29.29
+    +.hdslb.com: 119.29.29.29
+    +.163.com: 119.29.29.29
+    +.126.com: 119.29.29.29
+    +.126.net: 119.29.29.29
+    +.127.net: 119.29.29.29
+    +.netease.com: 119.29.29.29
+    +.bilivideo.+: 119.29.29.29
+    +.iqiyi.com: 119.29.29.29
+    +.douyinvod.com: 180.184.1.1
+    +.douyin.com: 180.184.1.1
+    +.douyincdn.com: 180.184.1.1
+    +.douyinpic.com: 180.184.1.1
+    +.feishu.cn: 180.184.1.1
+  nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://9.9.9.9/dns-query
+    - https://208.67.222.222/dns-query
+    - https://94.140.14.140/dns-query
+  fallback-filter:
+    geosite:
+      - "!cn"
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - +.mnc260.mcc310.pub.3gppnetwork.org
+      - +.mnc015.mcc234.pub.3gppnetwork.org
+      - +.proxy302.com
+      - +.iproyal.com
+      - +.smartproxy.com
+  enable: true
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time-ios.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.qq.com
+    - +.tencent.com
+    - +.srv.nintendo.net
+    - "*.n.n.srv.nintendo.net"
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - "*.*.xboxlive.com"
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - na.b.g-tun.com
+    - +.nflxvideo.net
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+    - shark007.net
+    - Mijia Cloud
+    - +.cmbchina.com
+    - +.cmbimg.com
+    - local.adguard.org
+    - +.sandai.net
+    - +.n0808.com
+    - teredo.*.*.*
+    - teredo.*.*
+    - speedtest.cros.wr.pvp.net
+    - +.jjvip8.com
+    - www.douyu.com
+    - activityapi.huya.com
+    - activityapi.huya.com.w.cdngslb.com
+    - mtalk.google.com
+    - +.pub.3gppnetwork.org
+    - +.cloudapp.azure.com
+    - +.subsite.cloudns.ch
+    - +.subdomain.cloudns.ch
+    - +.xigu.eu.org
+    - +.aufa.eu.org
+    - +.gugg.us.kg
+    - +.kcfc.us.kg
+    - +.oraclevcn.com
+    - +.jhgxwl.cn
+    - +.proxy302.com
+    - +.iproyal.com
+    - +.smartproxy.com
 proxies:
-  - name: 🇭🇰 Claw-HK 
-  server: hk.subsite.cloudns.ch
-  port: 443
-  type: vmess
-  uuid: 68cb4b8e-50cd-4fda-8039-24c11c1cf365
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  servername: hk.subsite.cloudns.ch
-  ws-opts:
-    path: "/68cb4b8e"
+  - {name: 🇭🇰 Claw-HK, server: hk.subsite.cloudns.ch, port: 443, type: vmess, uuid: 68cb4b8e-50cd-4fda-8039-24c11c1cf365, alterId: 0, cipher: auto, tls: true, network: ws, servername: hk.subsite.cloudns.ch, ws-opts: {path: "/68cb4b8e"}}
+proxy-groups:
+  - name: 🌏 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 🇭🇰 Claw-HK
+  - name: 🌏 全球代理
+    type: select
+    proxies:
+      - 🇭🇰 Claw-HK
+      - DIRECT
+      - REJECT
+  - name: 🌏 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 Claw-HK
+      - REJECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🇭🇰 Claw-HK
+      - DIRECT
+      - REJECT
+rules:
+  - GEOSITE,category-ads-all,🌏 全球拦截
+  - GEOSITE,geolocation-!cn,🌏 全球代理
+  - PROCESS-NAME,hysteria,🌏 全球直连
+  - PROCESS-NAME,hysteria.exe,🌏 全球直连
+  - PROCESS-NAME,leaf,🌏 全球直连
+  - PROCESS-NAME,leaf.exe,🌏 全球直连
+  - PROCESS-NAME,naive,🌏 全球直连
+  - PROCESS-NAME,naive.exe,🌏 全球直连
+  - PROCESS-NAME,privoxy,🌏 全球直连
+  - PROCESS-NAME,privoxy.exe,🌏 全球直连
+  - PROCESS-NAME,proxifier,🌏 全球直连
+  - PROCESS-NAME,proxifier.exe,🌏 全球直连
+  - PROCESS-NAME,shadowsocks,🌏 全球直连
+  - PROCESS-NAME,shadowsocks.exe,🌏 全球直连
+  - PROCESS-NAME,shadowsocksr,🌏 全球直连
+  - PROCESS-NAME,shadowsocksr.exe,🌏 全球直连
+  - PROCESS-NAME,sing-box,🌏 全球直连
+  - PROCESS-NAME,sing-box.exe,🌏 全球直连
+  - PROCESS-NAME,speeder,🌏 全球直连
+  - PROCESS-NAME,speeder.exe,🌏 全球直连
+  - PROCESS-NAME,speederv2,🌏 全球直连
+  - PROCESS-NAME,speederv2.exe,🌏 全球直连
+  - PROCESS-NAME,ss-local,🌏 全球直连
+  - PROCESS-NAME,ss-local.exe,🌏 全球直连
+  - PROCESS-NAME,sslocal,🌏 全球直连
+  - PROCESS-NAME,sslocal.exe,🌏 全球直连
+  - PROCESS-NAME,tinyvpn,🌏 全球直连
+  - PROCESS-NAME,tinyvpn.exe,🌏 全球直连
+  - PROCESS-NAME,trojan,🌏 全球直连
+  - PROCESS-NAME,trojan.exe,🌏 全球直连
+  - PROCESS-NAME,trojan-go,🌏 全球直连
+  - PROCESS-NAME,trojan-go.exe,🌏 全球直连
+  - PROCESS-NAME,tuic,🌏 全球直连
+  - PROCESS-NAME,tuic.exe,🌏 全球直连
+  - PROCESS-NAME,tuic-client,🌏 全球直连
+  - PROCESS-NAME,tuic-client.exe,🌏 全球直连
+  - PROCESS-NAME,udp2raw,🌏 全球直连
+  - PROCESS-NAME,udp2raw.exe,🌏 全球直连
+  - PROCESS-NAME,udp2raw_mp,🌏 全球直连
+  - PROCESS-NAME,udp2raw_mp.exe,🌏 全球直连
+  - PROCESS-NAME,v2ray,🌏 全球直连
+  - PROCESS-NAME,v2ray.exe,🌏 全球直连
+  - PROCESS-NAME,xray,🌏 全球直连
+  - PROCESS-NAME,xray.exe,🌏 全球直连
+  - PROCESS-NAME,Surge,🌏 全球直连
+  - PROCESS-NAME,Surge 2,🌏 全球直连
+  - PROCESS-NAME,Surge 3,🌏 全球直连
+  - PROCESS-NAME,Surge 4,🌏 全球直连
+  - PROCESS-NAME,Surge%202,🌏 全球直连
+  - PROCESS-NAME,Surge%203,🌏 全球直连
+  - PROCESS-NAME,Surge%204,🌏 全球直连
+  - PROCESS-NAME,BitComet,🌏 全球直连
+  - PROCESS-NAME,BitComet.exe,🌏 全球直连
+  - PROCESS-NAME,BitComet_x64.exe,🌏 全球直连
+  - PROCESS-NAME,DownloadService,🌏 全球直连
+  - PROCESS-NAME,DownloadSDKServer.exe,🌏 全球直连
+  - PROCESS-NAME,Folx,🌏 全球直连
+  - PROCESS-NAME,NeatDM,🌏 全球直连
+  - PROCESS-NAME,NeatDM.exe,🌏 全球直连
+  - PROCESS-NAME,NetTransport,🌏 全球直连
+  - PROCESS-NAME,NetTransport.exe,🌏 全球直连
+  - PROCESS-NAME,Thunder,🌏 全球直连
+  - PROCESS-NAME,Thunder.exe,🌏 全球直连
+  - PROCESS-NAME,ThunderVIP.exe,🌏 全球直连
+  - PROCESS-NAME,Transmission,🌏 全球直连
+  - PROCESS-NAME,WebTorrent,🌏 全球直连
+  - PROCESS-NAME,WebTorrent.exe,🌏 全球直连
+  - PROCESS-NAME,aria2,🌏 全球直连
+  - PROCESS-NAME,aria2.exe,🌏 全球直连
+  - PROCESS-NAME,aria2c,🌏 全球直连
+  - PROCESS-NAME,aria2c.exe,🌏 全球直连
+  - PROCESS-NAME,fdm,🌏 全球直连
+  - PROCESS-NAME,fdm.exe,🌏 全球直连
+  - PROCESS-NAME,qBittorrent,🌏 全球直连
+  - PROCESS-NAME,qbittorrent.exe,🌏 全球直连
+  - PROCESS-NAME,qbittorrent-nox,🌏 全球直连
+  - PROCESS-NAME,transmission-daemon,🌏 全球直连
+  - PROCESS-NAME,transmission-daemon.exe,🌏 全球直连
+  - PROCESS-NAME,transmission-qt.exe,🌏 全球直连
+  - PROCESS-NAME,uTorrent,🌏 全球直连
+  - PROCESS-NAME,uTorrent.exe,🌏 全球直连
+  - PROCESS-NAME,xdm,🌏 全球直连
+  - PROCESS-NAME,xdm.exe,🌏 全球直连
+  - PROCESS-NAME,xdman,🌏 全球直连
+  - PROCESS-NAME,xdman.exe,🌏 全球直连
+  - IP-CIDR,0.0.0.0/8,🌏 全球直连,no-resolve
+  - IP-CIDR,10.0.0.0/8,🌏 全球直连,no-resolve
+  - IP-CIDR,100.64.0.0/10,🌏 全球直连,no-resolve
+  - IP-CIDR,127.0.0.0/8,🌏 全球直连,no-resolve
+  - IP-CIDR,169.254.0.0/16,🌏 全球直连,no-resolve
+  - IP-CIDR,172.16.0.0/12,🌏 全球直连,no-resolve
+  - IP-CIDR,192.0.0.0/24,🌏 全球直连,no-resolve
+  - IP-CIDR,192.0.2.0/24,🌏 全球直连,no-resolve
+  - IP-CIDR,192.88.99.0/24,🌏 全球直连,no-resolve
+  - IP-CIDR,192.168.0.0/16,🌏 全球直连,no-resolve
+  - IP-CIDR,198.18.0.0/15,🌏 全球直连,no-resolve
+  - IP-CIDR,198.51.100.0/24,🌏 全球直连,no-resolve
+  - IP-CIDR,203.0.113.0/24,🌏 全球直连,no-resolve
+  - IP-CIDR,224.0.0.0/3,🌏 全球直连,no-resolve
+  - IP-CIDR6,::/127,🌏 全球直连,no-resolve
+  - IP-CIDR6,fc00::/7,🌏 全球直连,no-resolve
+  - IP-CIDR6,fe80::/10,🌏 全球直连,no-resolve
+  - IP-CIDR6,ff00::/8,🌏 全球直连,no-resolve
+  - GEOSITE,private,🌏 全球直连
+  - GEOSITE,cn,🌏 全球直连
+  - GEOIP,cn,🌏 全球直连
+  - MATCH,🐟 漏网之鱼
