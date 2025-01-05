@@ -1,7 +1,8 @@
 proxies:
   - name: 🇭🇰 Claw-HK 
   server: hk.subsite.cloudns.ch
-  port: 443, type: vmess
+  port: 443
+  type: vmess
   uuid: 68cb4b8e-50cd-4fda-8039-24c11c1cf365
   alterId: 0
   cipher: auto
