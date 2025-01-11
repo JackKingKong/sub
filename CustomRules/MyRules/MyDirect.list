@@ -16,6 +16,7 @@ DOMAIN,hk.xigu.eu.org
 DOMAIN,hk.kcfc.us.kg
 DOMAIN,hkup.aufa.eu.org
 DOMAIN,hkdown.aufa.eu.org
+DOMAIN,hk.aufa.eu.org
 IP-CIDR,8.210.28.245/32,no-resolve
 IP-CIDR6,2603:c022:8018:5488:cd1:17f8:3491:47ef/128,no-resolve
 # V.PS SL VPS
