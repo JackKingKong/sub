@@ -9,7 +9,7 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
-ipv6: false
+ipv6: true
 #【Meta专属】:true使用geoip.dat数据库,false(默认)使用mmdb数据库
 geodata-mode: true
 geodata-loader: standard
