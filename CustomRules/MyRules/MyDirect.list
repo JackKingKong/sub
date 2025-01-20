@@ -13,6 +13,7 @@ DOMAIN,sub.ssr.sh
 # ClawCloud HK VPS
 DOMAIN,hk.subsite.cloudns.ch
 DOMAIN,hk.xigu.eu.org
+DOMAIN,api.xigu.eu.org
 DOMAIN,hk.kcfc.us.kg
 DOMAIN,hkup.aufa.eu.org
 DOMAIN,hkdown.aufa.eu.org
