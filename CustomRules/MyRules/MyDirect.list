@@ -44,6 +44,7 @@ DOMAIN,jd.kcfc.us.kg
 IP-CIDR,117.72.34.238/32,no-resolve
 # Serv00
 DOMAIN,s16.serv00.com
+IP-CIDR,213.136.83.240/32,no-resolve
 # Github Mirror
 DOMAIN,gh.aufa.eu.org
 DOMAIN,ghp.aufa.eu.org
