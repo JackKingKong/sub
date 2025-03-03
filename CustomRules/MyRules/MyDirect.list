@@ -14,18 +14,18 @@ DOMAIN,sub.ssr.sh
 DOMAIN,hk.subsite.cloudns.ch
 DOMAIN,hk.xigu.eu.org
 DOMAIN,api.xigu.eu.org
-DOMAIN,hk.kcfc.us.kg
 DOMAIN,hkup.aufa.eu.org
 DOMAIN,hkdown.aufa.eu.org
 DOMAIN,hk.aufa.eu.org
 DOMAIN,hk.cjcj.eu.org
+DOMAIN,hk.kcfc.us.kg
 IP-CIDR,8.210.28.245/32,no-resolve
 IP-CIDR6,240b:4001:278:8401:ffff:2d3e:204a:1fcd/128,no-resolve
 # V.PS SL VPS
 DOMAIN,sub.subsite.cloudns.ch
-DOMAIN,azu.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
 DOMAIN,sub.aufa.eu.org
+DOMAIN,sub.cjcj.eu.org
 DOMAIN,sj.kcfc.us.kg
 IP-CIDR,146.19.116.46/32,no-resolve
 IP-CIDR6,2604:a840:2::d7/128,no-resolve
@@ -35,8 +35,6 @@ IP-CIDR6,2604:a840:2::d7/128,no-resolve
 #IP-CIDR,154.26.188.75/32,no-resolve
 # Ali VPS
 DOMAIN-SUFFIX,jhgxwl.cn
-DOMAIN,ck.aufa.eu.org
-DOMAIN,dl.aufa.eu.org
 IP-CIDR,101.37.27.41/32,no-resolve
 IP-CIDR,114.55.93.169/32,no-resolve
 # JD VPS
@@ -53,3 +51,7 @@ IP-CIDR,207.180.248.7/32,no-resolve
 # Github Mirror
 DOMAIN,gh.aufa.eu.org
 DOMAIN,ghp.aufa.eu.org
+DOMAIN,sl.aufa.eu.org
+DOMAIN,gh.cjcj.eu.org
+DOMAIN,ghp.cjcj.eu.org
+DOMAIN,sl.cjcj.eu.org
