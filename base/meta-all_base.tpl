@@ -131,7 +131,7 @@ dns:
     #- tls://77.88.8.8:853
     #- tls://77.88.8.1:853
     - https://hk.cjcj.eu.org/my-doh
-    - https://sub.cjcj.eu.org/my-doh
+    - https://dh.aufa.eu.org/my-doh
   fallback-filter:
     #【Meta专属】:
     geosite:
