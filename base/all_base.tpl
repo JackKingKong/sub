@@ -9,7 +9,7 @@ external-controller: :9090
 hosts:
   #mtalk.google.com: 108.177.125.188
   #raw.githubusercontent.com: 151.101.76.133
-  aktv.top: 172.64.154.91
+  #aktv.top: 172.64.154.91
 dns:
   enabled: true
   ipv6: true

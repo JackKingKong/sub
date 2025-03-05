@@ -68,7 +68,7 @@ sniffer:
     - "+.apple.com"
 hosts:
   #raw.githubusercontent.com: 151.101.76.133
-  aktv.top: 172.64.154.91
+  #aktv.top: 172.64.154.91
 dns:
   enabled: true
   ipv6: true
