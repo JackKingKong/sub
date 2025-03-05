@@ -67,8 +67,8 @@ dns:
     #- tls://101.101.101.101:853
     #- tls://77.88.8.8:853
     #- tls://77.88.8.1:853
-    - https://hk.cjcj.eu.org/dns-query
-    - https://sub.cjcj.eu.org/dns-query
+    - https://hk.cjcj.eu.org/my-dns-query
+    - https://sub.cjcj.eu.org/my-dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
