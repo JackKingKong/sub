@@ -11,7 +11,7 @@ DOMAIN,gnbqvu.xyz
 DOMAIN,subserver.maying.io
 DOMAIN,sub.ssr.sh
 # ClawCloud HK VPS
-#DOMAIN,hk.subsite.cloudns.ch
+DOMAIN,hk.subsite.cloudns.ch
 DOMAIN,hk.xigu.eu.org
 DOMAIN,api.xigu.eu.org
 DOMAIN,hkup.aufa.eu.org
@@ -22,7 +22,7 @@ DOMAIN,hk.kcfc.us.kg
 IP-CIDR,8.210.28.245/32,no-resolve
 IP-CIDR6,240b:4001:278:8401:ffff:2d3e:204a:1fcd/128,no-resolve
 # V.PS SL VPS
-#DOMAIN,sub.subsite.cloudns.ch
+DOMAIN,sub.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
 DOMAIN,sub.aufa.eu.org
 DOMAIN,sub.cjcj.eu.org
