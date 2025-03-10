@@ -93,7 +93,7 @@ dns:
   #指定域名使用自定义DNS解析
   nameserver-policy:
     #【Meta专属】
-    #"geosite:cn": 
+    #"geosite:cn,private": 
     #  - https://120.53.53.53/dns-query
     #  - https://223.5.5.5/dns-query
     "+.pphimalayanrt.com": 223.5.5.5
@@ -164,9 +164,6 @@ dns:
       - "+.iproyal.com"
       - "+.smartproxy.com"
   enable: true
-  #default-nameserver:
-    #- 223.5.5.5
-    #- 208.67.222.222
   fake-ip-filter:
     #LAN 
     - "*.lan"
