@@ -77,6 +77,12 @@ dns:
   fake-ip-range: 198.18.0.1/16
   prefer-h3: true
   use-hosts: true
+  #【Meta专属】
+  proxy-server-nameserver:
+    #- 114.114.114.114
+    #- 119.29.29.29
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query 
   nameserver-policy:
     #【Meta专属】:
     #"geosite:cn": 
