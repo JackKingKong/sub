@@ -77,14 +77,19 @@ dns:
   fake-ip-range: 198.18.0.1/16
   prefer-h3: true
   use-hosts: true
-  #【Meta专属】
+  #解析非IP的dns用的dns服务器,只支持纯IP
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  #【Meta专属】解析代理服务器域名的dns
   proxy-server-nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
     - https://120.53.53.53/dns-query
-    - https://223.5.5.5/dns-query 
+    - https://223.5.5.5/dns-query
+  #指定域名使用自定义DNS解析
   nameserver-policy:
-    #【Meta专属】:
+    #【Meta专属】
     #"geosite:cn": 
     #  - https://120.53.53.53/dns-query
     #  - https://223.5.5.5/dns-query
