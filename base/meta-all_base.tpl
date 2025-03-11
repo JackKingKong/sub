@@ -132,20 +132,20 @@ dns:
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   fallback:
-    - "https://1.1.1.1/dns-query#自动美国节点"
+    - https://1.1.1.1/dns-query
     #- tls://1.0.0.1:853
-    - "https://9.9.9.9/dns-query#自动美国节点"
+    - https://9.9.9.9/dns-query
     #- tls://149.112.112.112:853
-    - "https://208.67.222.222/dns-query#自动美国节点"
+    - https://208.67.222.222/dns-query
     #- tls://208.67.220.220:853
-    - "https://94.140.14.140/dns-query#自动美国节点"
+    - https://94.140.14.140/dns-query
     #- tls://94.140.14.141:853
     #- https://101.101.101.101/dns-query
     #- tls://101.101.101.101:853
     #- tls://77.88.8.8:853
     #- tls://77.88.8.1:853
-    #- https://hk.cjcj.eu.org/my-doh
-    #- https://dh.aufa.eu.org/my-doh
+    - https://hk.cjcj.eu.org/my-doh
+    - https://dh.aufa.eu.org/my-doh
   fallback-filter:
     #【Meta专属】:
     geosite:
