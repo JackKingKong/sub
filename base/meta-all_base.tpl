@@ -80,9 +80,9 @@ dns:
   prefer-h3: true
   use-hosts: true
   #解析非IP的dns用的dns服务器,只支持纯IP
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+  #default-nameserver:
+  #  - 223.5.5.5
+  #  - 119.29.29.29
   #【Meta专属】解析代理服务器域名的dns
   proxy-server-nameserver:
     - https://120.53.53.53/dns-query
