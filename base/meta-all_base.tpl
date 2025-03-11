@@ -92,6 +92,21 @@ dns:
     "geosite:cn,private": 
       - https://120.53.53.53/dns-query
       - https://223.5.5.5/dns-query
+    "+.mnc260.mcc310.pub.3gppnetwork.org": 
+      - https://hk.cjcj.eu.org/my-doh
+      - https://dh.aufa.eu.org/my-doh
+    "+.mnc015.mcc234.pub.3gppnetwork.org":
+      - https://hk.cjcj.eu.org/my-doh
+      - https://dh.aufa.eu.org/my-doh    
+    "+.proxy302.com":
+      - https://hk.cjcj.eu.org/my-doh
+      - https://dh.aufa.eu.org/my-doh    
+    "+.iproyal.com":
+      - https://hk.cjcj.eu.org/my-doh
+      - https://dh.aufa.eu.org/my-doh    
+    "+.smartproxy.com":
+      - https://hk.cjcj.eu.org/my-doh
+      - https://dh.aufa.eu.org/my-doh    
   nameserver:
     - https://1.1.1.1/dns-query
     - https://9.9.9.9/dns-query
