@@ -76,7 +76,8 @@ dns:
   enable: true
   ipv6: true
   listen: 0.0.0.0:7874
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   prefer-h3: true
   use-hosts: true
   #解析非IP的dns用的dns服务器,只支持纯IP
@@ -85,20 +86,250 @@ dns:
   #  - 119.29.29.29
   #【Meta专属】解析代理服务器域名的dns
   proxy-server-nameserver:
+    #- 114.114.114.114
+    #- 119.29.29.29
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
+    #【Meta专属】
     "geosite:cn,private": 
       - https://120.53.53.53/dns-query
       - https://223.5.5.5/dns-query
+    #"+.pphimalayanrt.com": 223.5.5.5
+    #st.dl.eccdnx.com: 223.5.5.5
+    #"+.tmall.com": 223.5.5.5
+    #"+.taobao.com": 223.5.5.5
+    #"+.alicdn.com": 223.5.5.5
+    #"+.aliyun.com": 223.5.5.5
+    #"+.alipay*.com": 223.5.5.5
+    #"+.alibaba*.com": 223.5.5.5
+    #"+.alimama*.com": 223.5.5.5
+    #"+.baidu.com": 223.5.5.5
+    #"+.bdstatic.com": 223.5.5.5
+    #"+.qq.com": 119.29.29.29
+    #"+.tencent.com": 119.29.29.29
+    #"+.weixin.com": 119.29.29.29
+    #"+.qpic.cn": 119.29.29.29
+    #"+.jd.com": 119.29.29.29
+    #"+.bilibili.com": 119.29.29.29
+    #"+.hdslb.com": 119.29.29.29
+    #"+.163.com": 119.29.29.29
+    #"+.126.com": 119.29.29.29
+    #"+.126.net": 119.29.29.29
+    #"+.127.net": 119.29.29.29
+    #"+.netease.com": 119.29.29.29
+    #"+.bilivideo.+": 119.29.29.29
+    #"+.iqiyi.com": 119.29.29.29 
+    #"+.douyinvod.com": 180.184.1.1
+    #"+.douyin.com": 180.184.1.1
+    #"+.douyincdn.com": 180.184.1.1
+    #"+.douyinpic.com": 180.184.1.1
+    #"+.feishu.cn": 180.184.1.1
   nameserver:
+    #- 114.114.114.114
+    #- 119.29.29.29
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  fallback:
     - https://1.1.1.1/dns-query
+    #- tls://1.0.0.1:853
     - https://9.9.9.9/dns-query
+    #- tls://149.112.112.112:853
     - https://208.67.222.222/dns-query
+    #- tls://208.67.220.220:853
     - https://94.140.14.140/dns-query
+    #- tls://94.140.14.141:853
+    #- https://101.101.101.101/dns-query
+    #- tls://101.101.101.101:853
+    #- tls://77.88.8.8:853
+    #- tls://77.88.8.1:853
     - https://hk.cjcj.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
+  fallback-filter:
+    #【Meta专属】:
+    geosite:
+      #- gfw
+      - "!cn"
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - "+.mnc260.mcc310.pub.3gppnetwork.org"
+      - "+.mnc015.mcc234.pub.3gppnetwork.org"
+      - "+.proxy302.com"
+      - "+.iproyal.com"
+      - "+.smartproxy.com"
+  fake-ip-filter:
+    #LAN 
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    #放行NTP服务
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time-ios.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - time1.cloud.tencent.com
+    #放行网易云音乐
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    #百度音乐
+    - musicapi.taihe.com
+    - music.taihe.com
+    #酷狗音乐
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    #酷我音乐
+    - "*.kuwo.cn"
+    #JOOX音乐
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    #QQ音乐
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    #虾米音乐
+    - "*.xiami.com"
+    #咪咕音乐
+    - "*.music.migu.cn"
+    - music.migu.cn
+    #win10本地连接检测
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    #QQ登录
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - "+.qq.com"
+    - "+.tencent.com"
+    #Game
+    #Nintendo Switch
+    - "+.srv.nintendo.net"
+    - "*.n.n.srv.nintendo.net"
+    #Sony PlayStation
+    - "+.stun.playstation.net"
+    #Microsoft Xbox
+    - xbox.*.*.microsoft.com
+    - "*.*.xboxlive.com"
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    #Wotgame
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    #Golang
+    - proxy.golang.org
+    #STUN
+    - stun.*.*
+    - stun.*.*.*
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "+.stun.*.*.*.*.*"
+    #Linksys Router
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    #ASUS Router
+    - "*.router.asus.com"
+    #Apple Software Update Service
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    #Google
+    - lens.l.google.com
+    - stun.l.google.com
+    - na.b.g-tun.com
+    #Netflix
+    - "+.nflxvideo.net"
+    #FinalFantasy XIV Worldwide Server & CN Server
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    #Bilibili
+    - "*.mcdn.bilivideo.cn"
+    #Disney Plus
+    - "+.media.dssott.com"
+    #shark007 Codecs 
+    - shark007.net
+    #Mijia
+    - Mijia Cloud
+    #招商银行
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+   #AdGuard
+    - local.adguard.org
+    #迅雷
+    - "+.sandai.net"
+    - "+.n0808.com"
+    #Nexitally
+    - teredo.*.*.*
+    - teredo.*.*
+    - speedtest.cros.wr.pvp.net
+    - "+.jjvip8.com"
+    - www.douyu.com
+    - activityapi.huya.com
+    - activityapi.huya.com.w.cdngslb.com
+    #Other
+    - mtalk.google.com
+    #UltraMobile&Giffgaff
+    #- "+.mnc260.mcc310.pub.3gppnetwork.org"
+    - "+.pub.3gppnetwork.org"
+    #My DomainName
+    - "+.cloudapp.azure.com"
+    - "+.subsite.cloudns.ch"
+    - "+.subdomain.cloudns.ch"
+    - "+.xigu.eu.org"
+    - "+.aufa.eu.org"
+    - "+.gugg.us.kg"
+    - "+.kcfc.us.kg"
+    - "+.oraclevcn.com"
+    - "+.jhgxwl.cn"
+    - "+.proxy302.com"
+    - "+.iproyal.com"
+    - "+.smartproxy.com"
+
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
