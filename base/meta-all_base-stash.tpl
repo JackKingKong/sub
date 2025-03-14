@@ -96,7 +96,8 @@ dns:
     - https://223.5.5.5/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
-    "geosite:cn,category-games@cn,category-netdisk-cn,private": https://223.5.5.5/dns-query
+    #"geosite:cn,category-games@cn,category-netdisk-cn,private": https://223.5.5.5/dns-query
+    "geosite:cn,private": https://223.5.5.5/dns-query
   nameserver:
     - https://1.1.1.1/dns-query
     - https://9.9.9.9/dns-query
