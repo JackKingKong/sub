@@ -105,7 +105,7 @@ dns:
     - https://9.9.9.9/dns-query
     - https://208.67.222.222/dns-query
     - https://94.140.14.140/dns-query
-    - https://hk.cjcj.eu.org/my-doh
+    - https://sj.cjcj.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
 
 {% if local.clash.new_field_name == "true" %}
