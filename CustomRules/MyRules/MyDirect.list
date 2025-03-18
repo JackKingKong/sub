@@ -25,6 +25,7 @@ IP-CIDR6,240b:4001:278:8401:ffff:2d3e:204a:1fcd/128,no-resolve
 DOMAIN,sub.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
 DOMAIN,sub.cjcj.eu.org
+DOMAIN,vpsdh.aufa.eu.org
 DOMAIN,vpssj.kcfc.dpdns.org
 IP-CIDR,146.19.116.46/32,no-resolve
 IP-CIDR6,2604:a840:2::d7/128,no-resolve
@@ -32,6 +33,7 @@ IP-CIDR6,2604:a840:2::d7/128,no-resolve
 DOMAIN,sj.subsite.cloudns.ch
 DOMAIN,sj.xigu.eu.org
 DOMAIN,sj.cjcj.eu.org
+DOMAIN,akkodh.aufa.eu.org
 DOMAIN,sjup.aufa.eu.org
 DOMAIN,sjdown.aufa.eu.org
 DOMAIN,sj.aufa.eu.org
