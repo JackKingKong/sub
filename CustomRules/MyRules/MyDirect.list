@@ -54,7 +54,7 @@ DOMAIN,s16.serv00.com
 DOMAIN,hy.aufa.eu.org
 IP-CIDR,213.136.83.240/32,no-resolve
 IP-CIDR,207.180.248.6/32,no-resolve
-IP-CIDR,207.180.248.7/32,no-resolve
+#IP-CIDR,207.180.248.7/32,no-resolve
 # Github Mirror
 DOMAIN,sl.cjcj.eu.org
 DOMAIN,gh.aufa.eu.org
@@ -64,4 +64,3 @@ DOMAIN,sl.xigu.eu.org
 DOMAIN,gh.xigu.eu.org
 DOMAIN,ghp.xigu.eu.org
 DOMAIN,dh.xigu.eu.org
-
