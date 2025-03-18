@@ -67,7 +67,7 @@ dns:
     #- tls://101.101.101.101:853
     #- tls://77.88.8.8:853
     #- tls://77.88.8.1:853
-    - https://hk.cjcj.eu.org/my-doh
+    - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
   fallback-filter:
     geoip: true
