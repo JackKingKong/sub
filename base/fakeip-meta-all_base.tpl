@@ -21,7 +21,7 @@ geox-url:
   #geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
   #mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
   geoip: "https://gh.aufa.eu.org/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
-  geosite: "https//gh.aufa.eu.org/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+  geosite: "https://gh.aufa.eu.org/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
   mmdb: "https://gh.aufa.eu.org/https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
 #【Meta专属】:find-process-mode has 3 values:always, strict, off
 #  - always, 开启，强制匹配所有进程
