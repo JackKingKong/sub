@@ -20,6 +20,7 @@ IP-CIDR6,240b:4001:278:8401:ffff:2d3e:204a:1fcd/128,no-resolve
 # V.PS SJ VPS
 DOMAIN,sub.subsite.cloudns.ch
 DOMAIN,sub.xigu.eu.org
+DOMAIN,sub.ismi.eu.org
 DOMAIN,vpsdh.aufa.eu.org
 DOMAIN,vpssj.kcfc.dpdns.org
 IP-CIDR,146.19.116.46/32,no-resolve
@@ -27,6 +28,7 @@ IP-CIDR6,2604:a840:2::d7/128,no-resolve
 # AKKO SJ VPS
 DOMAIN,sj.subsite.cloudns.ch
 DOMAIN,sj.xigu.eu.org
+DOMAIN,sj.ismi.eu.org
 DOMAIN,akkodh.aufa.eu.org
 DOMAIN,akkosj.kcfc.dpdns.org
 IP-CIDR,38.59.242.75/32,no-resolve
@@ -46,7 +48,7 @@ DOMAIN,serv00.cjcj.eu.org
 #IP-CIDR,213.136.83.240/32,no-resolve
 #IP-CIDR,207.180.248.6/32,no-resolve
 #IP-CIDR,207.180.248.7/32,no-resolve
-# Github Mirror
+# Github Mirror & Dns over Https & Short Link
 DOMAIN,sl.aufa.eu.org
 DOMAIN,gh.aufa.eu.org
 DOMAIN,ghp.aufa.eu.org
