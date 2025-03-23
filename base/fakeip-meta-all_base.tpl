@@ -95,14 +95,12 @@ dns:
   proxy-server-nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
-    - quic://223.5.5.5
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
     #【Meta专属】
     "geosite:cn,private":
-      - quic://223.5.5.5 
       - https://120.53.53.53/dns-query
       - https://223.5.5.5/dns-query
     #"+.pphimalayanrt.com": 223.5.5.5
