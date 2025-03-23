@@ -62,13 +62,20 @@ sniffer:
       ports: [443, 8443]
   #需要强制嗅探的域名（默认情况下只对IP进行嗅探）
   force-domain:
-    - +.v2ex.com
-    - "google.com"
-  #需要跳过嗅探的域名。主要解决部分站点sni字段非域名，导致嗅探结果异常的问题，如米家设备Mijia Cloud
+    #- +.v2ex.com
+    #- "google.com"
+    - "+.netflix.com"
+    - "+.nflxvideo.net"
+    - "+.amazonaws.com"
+    - "+.media.dssott.com"
+  #需要跳过嗅探的域名。主要解决部分站点sni字段非域名，导致嗅探结果异常的问题，如米家设备Mijia Cloud  
   skip-domain:
-    - "Mijia Cloud"
-    - "dlg.io.mi.com"
     - "+.apple.com"
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - "+.oray.com"
+    - "+.sunlogin.net"
+    - "+.push.apple.com"
 hosts:
   #raw.githubusercontent.com: 151.101.76.133
   #aktv.top: 172.64.154.91
@@ -88,12 +95,14 @@ dns:
   proxy-server-nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
+    - quic://223.5.5.5
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
     #【Meta专属】
-    "geosite:cn,private": 
+    "geosite:cn,private":
+      - quic://223.5.5.5 
       - https://120.53.53.53/dns-query
       - https://223.5.5.5/dns-query
     #"+.pphimalayanrt.com": 223.5.5.5
@@ -129,6 +138,7 @@ dns:
   nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
+    - quic://223.5.5.5
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   fallback:
