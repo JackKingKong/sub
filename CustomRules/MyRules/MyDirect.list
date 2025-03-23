@@ -32,6 +32,15 @@ DOMAIN,sj.ismi.eu.org
 DOMAIN,akkodh.aufa.eu.org
 DOMAIN,akkosj.kcfc.dpdns.org
 IP-CIDR,38.59.242.75/32,no-resolve
+# Serv00
+DOMAIN,serv00.cjcj.eu.org
+#DOMAIN,s16.serv00.com
+#IP-CIDR,213.136.83.240/32,no-resolve
+#DOMAIN,web16.serv00.com
+#IP-CIDR,207.180.248.6/32,no-resolve
+#DOMAIN,panel16.serv00.com
+#DOMAIN,cache16.serv00.com
+#IP-CIDR,207.180.248.7/32,no-resolve
 # Ali VPS
 DOMAIN-SUFFIX,jhgxwl.cn
 IP-CIDR,101.37.27.41/32,no-resolve
@@ -42,12 +51,6 @@ DOMAIN,jd.kcfc.dpdns.org
 DOMAIN,jd.gugg.dpdns.org
 DOMAIN,jd.imgu.dpdns.org
 IP-CIDR,117.72.34.238/32,no-resolve
-# Serv00
-#DOMAIN,s16.serv00.com
-DOMAIN,serv00.cjcj.eu.org
-#IP-CIDR,213.136.83.240/32,no-resolve
-#IP-CIDR,207.180.248.6/32,no-resolve
-#IP-CIDR,207.180.248.7/32,no-resolve
 # Github Mirror & Dns over Https & Short Link
 DOMAIN,sl.aufa.eu.org
 DOMAIN,gh.aufa.eu.org
