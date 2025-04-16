@@ -101,10 +101,10 @@ dns:
       - https://223.5.5.5/dns-query
       - https://120.53.53.53/dns-query
   nameserver:
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
-    - https://208.67.222.222/dns-query
-    - https://94.140.14.140/dns-query
+    #- https://1.1.1.1/dns-query
+    #- https://9.9.9.9/dns-query
+    #- https://208.67.222.222/dns-query
+    #- https://94.140.14.140/dns-query
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
 
