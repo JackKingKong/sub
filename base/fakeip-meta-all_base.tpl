@@ -136,7 +136,6 @@ dns:
   nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
-    - quic://223.5.5.5
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   fallback:
@@ -325,13 +324,16 @@ dns:
     #- "+.mnc260.mcc310.pub.3gppnetwork.org"
     - "+.pub.3gppnetwork.org"
     #My DomainName
-    - "+.cloudapp.azure.com"
+    #- "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
     - "+.subdomain.cloudns.ch"
     - "+.xigu.eu.org"
     - "+.aufa.eu.org"
-    - "+.gugg.us.kg"
-    - "+.kcfc.us.kg"
+    - "+.cjcj.eu.org"
+    - "+.ismi.eu.org"
+    - "+.gugg.dpdns.org"
+    - "+.kcfc.dpdns.org"
+    - "+.imgu.dpdns.org"
     - "+.oraclevcn.com"
     - "+.jhgxwl.cn"
     - "+.proxy302.com"
