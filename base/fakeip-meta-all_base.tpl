@@ -161,15 +161,38 @@ dns:
     geoip: true
     geoip-code: CN
     ipcidr:
+      - ::/128
+      - ::1/128
+      - 2001::/32
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
       - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
+      - 255.255.255.255/32
     domain:
       - "+.mnc260.mcc310.pub.3gppnetwork.org"
       - "+.mnc015.mcc234.pub.3gppnetwork.org"
       - "+.proxy302.com"
       - "+.iproyal.com"
       - "+.smartproxy.com"
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
   fake-ip-filter:
     #LAN 
     - "*.lan"
@@ -179,8 +202,8 @@ dns:
     - "*.localhost"
     - "*.test"
     - "*.local"
-    #放行NTP服务
     - "*.home.arpa"
+    #放行NTP服务
     - time.*.com
     - time.*.gov
     - time.*.edu.cn
@@ -247,6 +270,7 @@ dns:
     #Nintendo Switch
     - "+.srv.nintendo.net"
     - "*.n.n.srv.nintendo.net"
+    - "+.cdn.nintendo.net"
     #Sony PlayStation
     - "+.stun.playstation.net"
     #Microsoft Xbox
@@ -310,19 +334,17 @@ dns:
     #迅雷
     - "+.sandai.net"
     - "+.n0808.com"
-    #Nexitally
-    - teredo.*.*.*
-    - teredo.*.*
-    - speedtest.cros.wr.pvp.net
-    - "+.jjvip8.com"
-    - www.douyu.com
-    - activityapi.huya.com
-    - activityapi.huya.com.w.cdngslb.com
-    #Other
-    - mtalk.google.com
-    #UltraMobile&Giffgaff
-    #- "+.mnc260.mcc310.pub.3gppnetwork.org"
+    #UU Plugin
+    - "+.uu.163.com"
+    - ps.res.netease.com
+    #Wifi Calling
     - "+.pub.3gppnetwork.org"
+    #GEOSITE(Meta core)
+    - geosite:category-games
+    #geosite:apple-cn
+    #geosite:google-cn
+    #Other
+    #- mtalk.google.com
     #My DomainName
     #- "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
