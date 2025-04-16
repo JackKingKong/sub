@@ -103,54 +103,24 @@ dns:
     "geosite:cn,private":
       - https://120.53.53.53/dns-query
       - https://223.5.5.5/dns-query
-    #"+.pphimalayanrt.com": 223.5.5.5
-    #st.dl.eccdnx.com: 223.5.5.5
-    #"+.tmall.com": 223.5.5.5
-    #"+.taobao.com": 223.5.5.5
-    #"+.alicdn.com": 223.5.5.5
-    #"+.aliyun.com": 223.5.5.5
-    #"+.alipay*.com": 223.5.5.5
-    #"+.alibaba*.com": 223.5.5.5
-    #"+.alimama*.com": 223.5.5.5
-    #"+.baidu.com": 223.5.5.5
-    #"+.bdstatic.com": 223.5.5.5
-    #"+.qq.com": 119.29.29.29
-    #"+.tencent.com": 119.29.29.29
-    #"+.weixin.com": 119.29.29.29
-    #"+.qpic.cn": 119.29.29.29
-    #"+.jd.com": 119.29.29.29
-    #"+.bilibili.com": 119.29.29.29
-    #"+.hdslb.com": 119.29.29.29
-    #"+.163.com": 119.29.29.29
-    #"+.126.com": 119.29.29.29
-    #"+.126.net": 119.29.29.29
-    #"+.127.net": 119.29.29.29
-    #"+.netease.com": 119.29.29.29
-    #"+.bilivideo.+": 119.29.29.29
-    #"+.iqiyi.com": 119.29.29.29 
-    #"+.douyinvod.com": 180.184.1.1
-    #"+.douyin.com": 180.184.1.1
-    #"+.douyincdn.com": 180.184.1.1
-    #"+.douyinpic.com": 180.184.1.1
-    #"+.feishu.cn": 180.184.1.1
   nameserver:
     #- 114.114.114.114
     #- 119.29.29.29
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   fallback:
-    - https://1.1.1.1/dns-query
-    #- tls://1.0.0.1:853
-    - https://9.9.9.9/dns-query
-    #- tls://149.112.112.112:853
-    - https://208.67.222.222/dns-query
-    #- tls://208.67.220.220:853
-    - https://94.140.14.140/dns-query
-    #- tls://94.140.14.141:853
-    #- https://101.101.101.101/dns-query
-    #- tls://101.101.101.101:853
-    #- tls://77.88.8.8:853
-    #- tls://77.88.8.1:853
+    #- https://1.1.1.1/dns-query
+    #- https://9.9.9.9/dns-query
+    #- https://208.67.222.222/dns-query
+    #- https://94.140.14.140/dns-query
+    ##- tls://1.0.0.1:853
+    ##- tls://149.112.112.112:853
+    ##- tls://208.67.220.220:853
+    ##- tls://94.140.14.141:853
+    ##- https://101.101.101.101/dns-query
+    ##- tls://101.101.101.101:853
+    ##- tls://77.88.8.8:853
+    ##- tls://77.88.8.1:853
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
   fallback-filter:
@@ -181,8 +151,7 @@ dns:
       - 240.0.0.0/4
       - 255.255.255.255/32
     domain:
-      - "+.mnc260.mcc310.pub.3gppnetwork.org"
-      - "+.mnc015.mcc234.pub.3gppnetwork.org"
+      - "+.pub.3gppnetwork.org"
       - "+.proxy302.com"
       - "+.iproyal.com"
       - "+.smartproxy.com"

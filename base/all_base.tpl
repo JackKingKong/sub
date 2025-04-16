@@ -55,67 +55,55 @@ dns:
     - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
   fallback:
-    - https://1.1.1.1/dns-query
-    #- tls://1.0.0.1:853
-    - https://9.9.9.9/dns-query
-    #- tls://149.112.112.112:853
-    - https://208.67.222.222/dns-query
-    #- tls://208.67.220.220:853
-    - https://94.140.14.140/dns-query
-    #- tls://94.140.14.141:853
-    #- https://101.101.101.101/dns-query
-    #- tls://101.101.101.101:853
-    #- tls://77.88.8.8:853
-    #- tls://77.88.8.1:853
+    #- https://1.1.1.1/dns-query
+    #- https://9.9.9.9/dns-query
+    #- https://208.67.222.222/dns-query
+    #- https://94.140.14.140/dns-query
+    ##- tls://1.0.0.1:853
+    ##- tls://149.112.112.112:853
+    ##- tls://208.67.220.220:853
+    ##- tls://94.140.14.141:853
+    ##- https://101.101.101.101/dns-query
+    ##- tls://101.101.101.101:853
+    ##- tls://77.88.8.8:853
+    ##- tls://77.88.8.1:853
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
   fallback-filter:
     geoip: true
     geoip-code: CN
     ipcidr:
+      - ::/128
+      - ::1/128
+      - 2001::/32
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
       - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
+      - 255.255.255.255/32
     domain:
-      - "*.tw"
-      - testflight.apple.com
-      - "+.facebook.com"
-      - "+.twitter.com"
-      - "+.google.com"
-      - "+.googleapis.com"
-      - "+.google.cn"
-      - "+.googleapis.cn"
-      - "+.xn--ngstr-lra8j.com"
-      - "+.googlevideo.com"
-      - "+.gvt1.com"
-      - "+.gmail.com"
-      - "+.youtube.com"
-      - "+.youtu.be"
-      - "+.gvt0.com"
-      - "+.gvt2.com"
-      - "+.gvt3.com"
-      - "+.gstatic.com"
-      - "+.265.com"
-      - "+.2mdn.net"
-      - "+.app-measurement.com"
-      - "+.c.admob.com"
-      - "+.clickserve.dartsearch.net"
-      - "+.crl.pki.goog"
-      - "+.doubleclick.net"
-      - "+.firebase-settings.crashlytics.com"
-      - "+.google-analytics.com"
-      - "+.googleadservices.com"
-      - "+.googleanalytics.com"
-      - "+.googleoptimize.com"
-      - "+.googlesyndication.com"
-      - "+.googletagmanager.com"
-      - "+.googletagservices.com"
-      - time.android.com
-      - "+.mnc260.mcc310.pub.3gppnetwork.org"
-      - "+.mnc015.mcc234.pub.3gppnetwork.org"
+      - "+.pub.3gppnetwork.org"
       - "+.proxy302.com"
       - "+.iproyal.com"
       - "+.smartproxy.com"
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
   enable: true
   #default-nameserver:
     #- 223.5.5.5
@@ -129,8 +117,8 @@ dns:
     - "*.localhost"
     - "*.test"
     - "*.local"
-    #放行NTP服务
     - "*.home.arpa"
+    #放行NTP服务
     - time.*.com
     - time.*.gov
     - time.*.edu.cn
@@ -197,6 +185,7 @@ dns:
     #Nintendo Switch
     - "+.srv.nintendo.net"
     - "*.n.n.srv.nintendo.net"
+    - "+.cdn.nintendo.net"
     #Sony PlayStation
     - "+.stun.playstation.net"
     #Microsoft Xbox
@@ -260,19 +249,17 @@ dns:
     #迅雷
     - "+.sandai.net"
     - "+.n0808.com"
-    #Nexitally
-    - teredo.*.*.*
-    - teredo.*.*
-    - speedtest.cros.wr.pvp.net
-    - "+.jjvip8.com"
-    - www.douyu.com
-    - activityapi.huya.com
-    - activityapi.huya.com.w.cdngslb.com
-    #Other
-    - mtalk.google.com
-    #UltraMobile&Giffgaff
-    #- "+.mnc260.mcc310.pub.3gppnetwork.org"
+    #UU Plugin
+    - "+.uu.163.com"
+    - ps.res.netease.com
+    #Wifi Calling
     - "+.pub.3gppnetwork.org"
+    #GEOSITE(Meta core)
+    - geosite:category-games
+    #geosite:apple-cn
+    #geosite:google-cn
+    #Other
+    #- mtalk.google.com
     #My DomainName
     #- "+.cloudapp.azure.com"
     - "+.subsite.cloudns.ch"
