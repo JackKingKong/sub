@@ -5,6 +5,7 @@
 #🌏 Giffgaff,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Giffgaff.list
 #🌏 VPSJP,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 🌏 VPSKR,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
+🌏 REDDIT,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/REDDIT.list
 🧲 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list
 🧲 OpenAI,[]GEOSITE,openai
 🎬 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
