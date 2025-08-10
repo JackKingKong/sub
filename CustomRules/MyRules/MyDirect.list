@@ -60,3 +60,5 @@ DOMAIN,sl.xigu.eu.org
 DOMAIN,gh.xigu.eu.org
 DOMAIN,ghp.xigu.eu.org
 DOMAIN,dh.xigu.eu.org
+# QNAP
+DOMAIN-SUFFIX,qnap.com
