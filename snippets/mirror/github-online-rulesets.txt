@@ -6,8 +6,9 @@
 #🌏 VPSJP,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 🌏 VPSKR,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list
 🌏 REDDIT,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/REDDIT.list
-🧲 OpenAI,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list
-🧲 OpenAI,[]GEOSITE,openai
+🧲 AI,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list
+🧲 AI,[]GEOSITE,openai
+🧲 AI,DisneyPlus,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/Claude.list
 🎬 YouTube,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
 🎬 Netflix,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
 🎬 DisneyPlus,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/TAGRules/DisneyPlus.list
@@ -21,9 +22,9 @@
 #🎬 HBO,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBOHK.list
 #🎬 HBO,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBOUSA.list
 🎬 TikTok,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list
-🎵 AppleMusic,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list
-🎵 YouTubeMusic,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list
-🎵 Spotify,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
+🎵 国外音乐,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list
+🎵 国外音乐,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list
+🎵 国外音乐,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
 🎬 香港媒体,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.list
 🎬 香港媒体,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB/TVB.list
 🎬 香港媒体,https://gh.aufa.eu.org/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NowE/NowE.list
