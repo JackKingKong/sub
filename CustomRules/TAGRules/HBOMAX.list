@@ -1,3 +1,4 @@
+#HBOMAX
 DOMAIN,wmff.warnermediacdn.com
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
@@ -393,7 +394,7 @@ DOMAIN-KEYWORD,discovery.uplynk.com
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,api.discomax.com
 
-#HBO GO
+#HBOGO
 #DOMAIN,mytvsuperlimited.hb.omtrdc.net
 #DOMAIN,mytvsuperlimited.sc.omtrdc.net
 #DOMAIN-SUFFIX,mytvsuper.com
