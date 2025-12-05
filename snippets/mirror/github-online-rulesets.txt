@@ -1,6 +1,7 @@
 🌏 自定义直连,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
 🌏 自定义代理,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 🌏 自定义拦截,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list
+🌏 魅影,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Meiying.list
 🌏 UltraMobile,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
 #🌏 Giffgaff,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Giffgaff.list
 #🌏 VPSJP,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
