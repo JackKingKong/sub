@@ -1,0 +1,10 @@
+payload:
+# 住宅IP代理
+  - DOMAIN-SUFFIX,proxy302.com
+  - DOMAIN-SUFFIX,iproyal.com
+  - DOMAIN-SUFFIX,smartproxy.com
+# 被墙域名
+#  - DOMAIN-SUFFIX,subsite.cloudns.ch
+# Samsung
+  - DOMAIN-SUFFIX,samsung.com
+  - DOMAIN-SUFFIX,samsungcloud.com
