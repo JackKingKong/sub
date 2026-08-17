@@ -189,12 +189,6 @@ group = "🎥 Emby"
 ruleset = "[]GEOSITE,category-emby"
 interval = 0
 
-[[rulesets]]
-group = "🎥 香港媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/myTVSUPER/myTVSUPER.yaml"
-type = "clash-classic"
-interval = 28800
-
 group = "🎥 国外媒体"
 ruleset = "[]GEOSITE,category-entertainment"
 interval = 0
