@@ -10,8 +10,8 @@ rule = [
   "[]🇯🇵 自动日本节点",
   "[]🇰🇷 自动韩国节点",
   "[]🇬🇧 自动英国节点",
-  "[]🇳🇱 自动荷兰节点",
-  "[]🇳🇿 自动新西兰节点",
+#  "[]🇳🇱 自动荷兰节点",
+#  "[]🇳🇿 自动新西兰节点",
   ".*",
 ]
 
@@ -93,23 +93,23 @@ interval = 300
 timeout = 0
 tolerance = 50
 
-[[custom_groups]]
-name = "🇳🇱 自动荷兰节点"
-type = "url-test"
-rule = ['(荷兰|NL|Netherlands)']
-url = "https://cp.cloudflare.com/generate_204"
-interval = 300
-timeout = 0
-tolerance = 50
+#[[custom_groups]]
+#name = "🇳🇱 自动荷兰节点"
+#type = "url-test"
+#rule = ['(荷兰|NL|Netherlands)']
+#url = "https://cp.cloudflare.com/generate_204"
+#interval = 300
+#timeout = 0
+#tolerance = 50
 
-[[custom_groups]]
-name = "🇳🇿 自动新西兰节点"
-type = "url-test"
-rule = ['(新西兰|NZ)']
-url = "https://cp.cloudflare.com/generate_204"
-interval = 300
-timeout = 0
-tolerance = 50
+#[[custom_groups]]
+#name = "🇳🇿 自动新西兰节点"
+#type = "url-test"
+#rule = ['(新西兰|NZ)']
+#url = "https://cp.cloudflare.com/generate_204"
+#interval = 300
+#timeout = 0
+#tolerance = 50
 
 [[custom_groups]]
 name = "[]🐟 漏网之鱼"
@@ -124,8 +124,8 @@ rule = [
   "[]🇯🇵 自动日本节点",
   "[]🇰🇷 自动韩国节点",
   "[]🇬🇧 自动英国节点",
-  "[]🇳🇱 自动荷兰节点",
-  "[]🇳🇿 自动新西兰节点",
+#  "[]🇳🇱 自动荷兰节点",
+#  "[]🇳🇿 自动新西兰节点",
   ".*",
 ]
 
