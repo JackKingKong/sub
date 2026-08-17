@@ -272,6 +272,108 @@ ruleset = "[]GEOSITE,category-entertainment"
 interval = 0
 
 [[rulesets]]
+group = "🚀 全球代理"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.mrs"
+type = "clash-domain"
+interval = 28800
+
+[[rulesets]]
+group = "🚀 全球代理"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Classical_IP.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🚀 全球代理"
+ruleset = "[]GEOSITE,gfw"
+interval = 0
+
+#[[rulesets]]
+#group = "🚀 全球代理"
+#ruleset = "[]GEOSITE,geolocation-!cn"
+#interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,private"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,private,no-resolve"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.mrs"
+type = "clash-domain"
+interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical_IP.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,google-cn"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,category-games@cn"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Domain.mrs"
+type = "clash-domain"
+interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical_IP.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,category-game-platforms-download"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,category-public-tracker"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,category-netdisk-cn"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/XPTV.yaml"
+interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,cn"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,cn,no-resolve"
+interval = 0
+
+#[[rulesets]]
+#group = "🔀 非标端口"
+#ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Port_Direct.yaml"
+#type = "clash-classic"
+#interval = 28800
+
+[[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
 interval = 0
