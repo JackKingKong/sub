@@ -4,41 +4,49 @@
 [[rulesets]]
 group = "🌏 自定义直连"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/MyDirect.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🌏 自定义代理"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/MyProxy.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🌏 自定义拦截"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/MyReject.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🌏 魅影"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Maying.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🌏 UltraMobile"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/UltraMobile.yaml"
+type = "clash-classic"
 interval = 28800
 
 #[[rulesets]]
 #group = "🌏 Giffgaff"
 #ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Giffgaff.yaml"
+#type = "clash-classic"
 #interval = 28800
 
 [[rulesets]]
 group = "🌏 VPSKR"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/VPSKR.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🌏 REDDIT"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/REDDIT.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
@@ -184,66 +192,79 @@ interval = 0
 [[rulesets]]
 group = "🎥 香港媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 香港媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB/TVB.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 香港媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NowE/NowE.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 香港媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HKOpenTV/HKOpenTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 香港媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 台湾媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKTV/KKTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 台湾媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LineTV/LineTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 日本媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Abema/Abema.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 日本媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVer/TVer.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 日本媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 日本媒体"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/ext/JavJP.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 韩国媒体"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/NaverTV/NaverTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
 group = "🎥 韩国媒体"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/PandoraTV/PandoraTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 group = "🎥 国外媒体"
