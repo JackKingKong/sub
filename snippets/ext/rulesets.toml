@@ -355,6 +355,7 @@ interval = 0
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/XPTV.yaml"
+type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
