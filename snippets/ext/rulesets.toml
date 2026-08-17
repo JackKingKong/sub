@@ -50,6 +50,91 @@ type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "[]GEOSITE,apple"
+interval = 0
+
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "[]GEOSITE,microsoft"
+interval = 0
+
+[[rulesets]]
+group = "📢 谷歌FCM"
+ruleset = "[]GEOSITE,googlefcm"
+interval = 0
+
+[[rulesets]]
+group = "🇬 谷歌服务"
+ruleset = "[]GEOSITE,google"
+interval = 0
+
+[[rulesets]]
+group = "🇬 谷歌服务"
+ruleset = "[]GEOIP,google,no-resolve"
+interval = 0
+
+[[rulesets]]
+group = "💬 国外即时通讯"
+ruleset = "[]GEOSITE,category-communication"
+interval = 0
+
+[[rulesets]]
+group = "💬 国外即时通讯"
+ruleset = "[]GEOIP,telegram,no-resolve"
+interval = 0
+
+[[rulesets]]
+group = "🌐 国外社交媒体"
+ruleset = "[]GEOSITE,category-social-media-!cn"
+interval = 0
+
+[[rulesets]]
+group = "🌐 国外社交媒体"
+ruleset = "[]GEOIP,twitter,no-resolve"
+interval = 0
+
+[[rulesets]]
+group = "🌐 国外社交媒体"
+ruleset = "[]GEOIP,facebook,no-resolve"
+interval = 0
+
+[[rulesets]]
+group = "🛒 国外电商"
+ruleset = "[]GEOSITE,category-ecommerce"
+interval = 0
+
+[[rulesets]]
+group = "🤖 国外AI服务"
+ruleset = "[]GEOSITE,openai"
+interval = 0
+
+[[rulesets]]
+group = "🤖 国外AI服务"
+ruleset = "[]GEOSITE,category-ai-!cn"
+interval = 0
+
+[[rulesets]]
+group = "🚀 GitHub"
+ruleset = "[]GEOSITE,github"
+interval = 0
+
+[[rulesets]]
+group = "🚀 测速工具"
+ruleset = "[]GEOSITE,category-speedtest"
+interval = 0
+
+[[rulesets]]
+group = "🎮 Steam"
+ruleset = "[]GEOSITE,steam"
+interval = 0
+
+[[rulesets]]
+group = "🎮 游戏平台"
+ruleset = "[]GEOSITE,category-games"
+interval = 0
+
+[[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
 interval = 0
