@@ -219,54 +219,6 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 type = "clash-classic"
 interval = 28800
 
-[[rulesets]]
-group = "🎥 台湾媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/KKTV/KKTV.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 台湾媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/LineTV/LineTV.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 日本媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Abema/Abema.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 日本媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 日本媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Niconico/Niconico.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 日本媒体"
-ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/JavJP.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 韩国媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/NaverTV/NaverTV.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎥 韩国媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PandoraTV/PandoraTV.yaml"
-type = "clash-classic"
-interval = 28800
-
 group = "🎥 国外媒体"
 ruleset = "[]GEOSITE,category-entertainment"
 interval = 0
