@@ -84,7 +84,7 @@ interval = 300
 timeout = 0
 tolerance = 50
 
-[custom_groups]]
+[[custom_groups]]
 name = "🇬🇧 自动英国节点"
 type = "url-test"
 rule = ['(英国|英|UK|Britain|England|United Kingdom)']
@@ -93,7 +93,7 @@ interval = 300
 timeout = 0
 tolerance = 50
 
-[custom_groups]]
+[[custom_groups]]
 name = "🇳🇱 自动荷兰节点"
 type = "url-test"
 rule = ['(荷兰|NL|Netherlands)']
@@ -102,7 +102,7 @@ interval = 300
 timeout = 0
 tolerance = 50
 
-[custom_groups]]
+[[custom_groups]]
 name = "🇳🇿 自动新西兰节点"
 type = "url-test"
 rule = ['(新西兰|NZ)']
