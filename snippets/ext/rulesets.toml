@@ -7,6 +7,47 @@ ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/Cu
 type = "clash-classic"
 interval = 28800
 
+[[rulesets]]
+group = "🌏 自定义代理"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/MyProxy.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🌏 自定义拦截"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/MyReject.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🌏 魅影"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Maying.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🌏 UltraMobile"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/UltraMobile.yaml"
+type = "clash-classic"
+interval = 28800
+
+#[[rulesets]]
+#group = "🌏 Giffgaff"
+#ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Giffgaff.yaml"
+#type = "clash-classic"
+#interval = 28800
+
+[[rulesets]]
+group = "🌏 VPSKR"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/VPSKR.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🌏 REDDIT"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/REDDIT.yaml"
+type = "clash-classic"
+interval = 28800
 
 [[rulesets]]
 group = "🐟 漏网之鱼"
