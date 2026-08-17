@@ -1,4 +1,4 @@
-[custom_groups]]
+[[custom_groups]]
 name = "🚀 节点选择"
 type = "select"
 rule = [
