@@ -303,60 +303,6 @@ group = "🎯 全球直连"
 ruleset = "[]GEOIP,private,no-resolve"
 interval = 0
 
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.mrs"
-type = "clash-domain"
-interval = 28800
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical_IP.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,google-cn"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,category-games@cn"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Domain.mrs"
-type = "clash-domain"
-interval = 28800
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical_IP.yaml"
-type = "clash-classic"
-interval = 28800
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,category-game-platforms-download"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,category-public-tracker"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,cn"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,cn,no-resolve"
-interval = 0
-
 #[[rulesets]]
 #group = "🔀 非标端口"
 #ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Port_Direct.yaml"
