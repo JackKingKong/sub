@@ -135,6 +135,61 @@ ruleset = "[]GEOSITE,category-games"
 interval = 0
 
 [[rulesets]]
+group = "📹 YouTube"
+ruleset = "[]GEOSITE,youtube"
+interval = 0
+
+[[rulesets]]
+group = "🎥 Netflix"
+ruleset = "[]GEOSITE,netflix"
+interval = 0
+
+[[rulesets]]
+group = "🎥 Netflix"
+ruleset = "[]GEOIP,netflix,no-resolve"
+interval = 0
+
+[[rulesets]]
+group = "🎥 AppleTV+"
+ruleset = "[]GEOSITE,apple-tvplus"
+interval = 0
+
+[[rulesets]]
+group = "🎥 DisneyPlus"
+ruleset = "[]GEOSITE,disney"
+interval = 0
+
+[[rulesets]]
+group = "🎥 HBO"
+ruleset = "[]GEOSITE,hbo"
+interval = 0
+
+[[rulesets]]
+group = "🎥 PrimeVideo"
+ruleset = "[]GEOSITE,primevideo"
+interval = 0
+
+[[rulesets]]
+group = "🎥 Bahamut"
+ruleset = "[]GEOSITE,bahamut"
+interval = 0
+
+[[rulesets]]
+group = "🎥 TikTok"
+ruleset = "[]GEOSITE,tiktok"
+interval = 0
+
+[[rulesets]]
+group = "🎥 Spotify"
+ruleset = "[]GEOSITE,spotify"
+interval = 0
+
+[[rulesets]]
+group = "🎥 Emby"
+ruleset = "[]GEOSITE,category-emby"
+interval = 0
+
+[[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
 interval = 0
