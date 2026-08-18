@@ -349,7 +349,7 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "[]💬 国外即时通讯"
+name = "[]🌐 国外社交媒体"
 type = "select"
 rule = [
   "[]🚀 节点选择",
