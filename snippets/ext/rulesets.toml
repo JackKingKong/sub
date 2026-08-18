@@ -49,80 +49,80 @@ ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/Cu
 type = "clash-classic"
 interval = 28800
 
-[[rulesets]]
-group = "🍎 苹果服务"
-ruleset = "[]GEOSITE,apple"
-interval = 0
+#[[rulesets]]
+#group = "🍎 苹果服务"
+#ruleset = "[]GEOSITE,apple"
+#interval = 0
 
 [[rulesets]]
 group = "Ⓜ️ 微软服务"
 ruleset = "[]GEOSITE,microsoft"
 interval = 0
 
-[[rulesets]]
-group = "📢 谷歌FCM"
-ruleset = "[]GEOSITE,googlefcm"
-interval = 0
+#[[rulesets]]
+#group = "📢 谷歌服务"
+#ruleset = "[]GEOSITE,googlefcm"
+#interval = 0
 
-[[rulesets]]
-group = "🇬 谷歌服务"
-ruleset = "[]GEOSITE,google"
-interval = 0
+#[[rulesets]]
+#group = "📢 谷歌服务"
+#ruleset = "[]GEOSITE,google"
+#interval = 0
 
-[[rulesets]]
-group = "🇬 谷歌服务"
-ruleset = "[]GEOIP,google,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "📢 谷歌服务"
+#ruleset = "[]GEOIP,google,no-resolve"
+#interval = 0
 
-[[rulesets]]
-group = "💬 国外即时通讯"
-ruleset = "[]GEOSITE,category-communication"
-interval = 0
+#[[rulesets]]
+#group = "💬 国外即时通讯"
+#ruleset = "[]GEOSITE,category-communication"
+#interval = 0
 
-[[rulesets]]
-group = "💬 国外即时通讯"
-ruleset = "[]GEOIP,telegram,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "💬 国外即时通讯"
+#ruleset = "[]GEOIP,telegram,no-resolve"
+#interval = 0
 
-[[rulesets]]
-group = "🌐 国外社交媒体"
-ruleset = "[]GEOSITE,category-social-media-!cn"
-interval = 0
+#[[rulesets]]
+#group = "🌐 国外社交媒体"
+#ruleset = "[]GEOSITE,category-social-media-!cn"
+#interval = 0
 
-[[rulesets]]
-group = "🌐 国外社交媒体"
-ruleset = "[]GEOIP,twitter,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "🌐 国外社交媒体"
+#ruleset = "[]GEOIP,twitter,no-resolve"
+#interval = 0
 
-[[rulesets]]
-group = "🌐 国外社交媒体"
-ruleset = "[]GEOIP,facebook,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "🌐 国外社交媒体"
+#ruleset = "[]GEOIP,facebook,no-resolve"
+#interval = 0
 
-[[rulesets]]
-group = "🛒 国外电商"
-ruleset = "[]GEOSITE,category-ecommerce"
-interval = 0
+#[[rulesets]]
+#group = "🛒 国外电商"
+#ruleset = "[]GEOSITE,category-ecommerce"
+#interval = 0
 
-[[rulesets]]
-group = "🤖 国外AI服务"
-ruleset = "[]GEOSITE,openai"
-interval = 0
+#[[rulesets]]
+#group = "🤖 国外AI服务"
+#ruleset = "[]GEOSITE,openai"
+#interval = 0
 
-[[rulesets]]
-group = "🤖 国外AI服务"
-ruleset = "[]GEOSITE,category-ai-!cn"
-interval = 0
+#[[rulesets]]
+#group = "🤖 国外AI服务"
+#ruleset = "[]GEOSITE,category-ai-!cn"
+#interval = 0
 
-[[rulesets]]
-group = "🚀 GitHub"
-ruleset = "[]GEOSITE,github"
-interval = 0
+#[[rulesets]]
+#group = "🚀 GitHub"
+#ruleset = "[]GEOSITE,github"
+#interval = 0
 
-[[rulesets]]
-group = "🚀 测速工具"
-ruleset = "[]GEOSITE,category-speedtest"
-interval = 0
+#[[rulesets]]
+#group = "🚀 测速工具"
+#ruleset = "[]GEOSITE,category-speedtest"
+#interval = 0
 
 [[rulesets]]
 group = "🎮 Steam"
@@ -284,15 +284,15 @@ ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules
 type = "clash-classic"
 interval = 28800
 
-[[rulesets]]
-group = "🚀 全球代理"
-ruleset = "[]GEOSITE,gfw"
-interval = 0
-
 #[[rulesets]]
 #group = "🚀 全球代理"
-#ruleset = "[]GEOSITE,geolocation-!cn"
+#ruleset = "[]GEOSITE,gfw"
 #interval = 0
+
+[[rulesets]]
+group = "🚀 全球代理"
+ruleset = "[]GEOSITE,geolocation-!cn"
+interval = 0
 
 [[rulesets]]
 group = "🎯 全球直连"
@@ -318,16 +318,6 @@ interval = 28800
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "[]GEOSITE,google-cn"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,category-games@cn"
-interval = 0
-
-[[rulesets]]
-group = "🎯 全球直连"
 ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Domain.mrs"
 type = "clash-domain"
 interval = 28800
@@ -337,6 +327,17 @@ group = "🎯 全球直连"
 ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical_IP.yaml"
 type = "clash-classic"
 interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,google-cn"
+interval = 0
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOSITE,category-games@cn"
+interval = 0
+
 
 [[rulesets]]
 group = "🎯 全球直连"
