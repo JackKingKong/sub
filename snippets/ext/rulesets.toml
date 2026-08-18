@@ -49,10 +49,10 @@ ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/Cu
 type = "clash-classic"
 interval = 28800
 
-#[[rulesets]]
-#group = "🍎 苹果服务"
-#ruleset = "[]GEOSITE,apple"
-#interval = 0
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "[]GEOSITE,apple"
+interval = 0
 
 [[rulesets]]
 group = "Ⓜ️ 微软服务"
