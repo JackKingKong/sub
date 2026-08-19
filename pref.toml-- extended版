@@ -84,7 +84,8 @@ singbox_rule_base = "base/all_base.tpl"
 
 # Stash 独立基础模板。旧配置缺少此项时仍使用 base/stash.yaml。
 # Independent Stash base template. Existing configs that omit this option still use base/stash.yaml.
-stash_rule_base = "base/stash.yaml"
+#stash_rule_base = "base/stash.yaml"
+stash_rule_base = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/base/stash.ymal"
 
 # 分别控制下载外部配置、规则集和订阅时使用的代理。NONE（不区分大小写）和空值强制直连并忽略环境代理；SYSTEM 按系统代理来源解析；显式 URI 支持 http/https/socks4/socks4a/socks5/socks5h，不受环境 NO_PROXY 影响，但官方构建会在受信任请求和 lan 模式下直连初始回环主机。
 # Proxies used when downloading external configs, rulesets, and subscriptions. NONE (case-insensitive) and an empty value force direct connections and ignore proxy environment variables. SYSTEM resolves the documented system source. Explicit http/https/socks4/socks4a/socks5/socks5h URIs ignore ambient NO_PROXY, while official builds directly reach an initial loopback host for trusted requests and lan mode.
@@ -204,7 +205,8 @@ write_managed_config = true
 
 # MANAGED-CONFIG 与 /getruleset、/qx-rewrite、/qx-script 生成地址的服务前缀，不含末尾斜杠。
 # Service prefix used by MANAGED-CONFIG and generated /getruleset, /qx-rewrite, and /qx-script URLs, without a trailing slash.
-managed_config_prefix = "http://127.0.0.1:25500"
+#managed_config_prefix = "http://127.0.0.1:25500"
+managed_config_prefix = "http://127.0.0.1:26600"
 
 # 托管配置建议更新间隔，单位秒；Surfboard 要求至少 900 秒。
 # Suggested managed-config refresh interval in seconds; Surfboard requires at least 900 seconds.
@@ -491,7 +493,8 @@ target = "/render?path=templates/test.tpl"
 listen = "0.0.0.0"
 # Web 服务监听端口；PORT 环境变量存在时优先于本值。
 # Web-server port; the PORT environment variable overrides this value when set.
-port = 25500
+#port = 25500
+port = 26600
 # 静态文件根目录并挂载到 /；设为空字符串可关闭静态文件服务。
 # Static-file root mounted at /; set to an empty string to disable static serving.
 serve_file_root = "web"

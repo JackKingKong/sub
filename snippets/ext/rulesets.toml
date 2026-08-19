@@ -144,10 +144,10 @@ group = "🎥 Netflix"
 ruleset = "[]GEOSITE,netflix"
 interval = 0
 
-[[rulesets]]
-group = "🎥 Netflix"
-ruleset = "[]GEOIP,netflix,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "🎥 Netflix"
+#ruleset = "[]GEOIP,netflix,no-resolve"
+#interval = 0
 
 [[rulesets]]
 group = "🎥 AppleTV+"
@@ -274,7 +274,7 @@ interval = 0
 
 [[rulesets]]
 group = "🚀 全球代理"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.mrs"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.yaml"
 type = "clash-domain"
 interval = 28800
 
@@ -299,14 +299,20 @@ group = "🎯 全球直连"
 ruleset = "[]GEOSITE,private"
 interval = 0
 
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,private,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "🎯 全球直连"
+#ruleset = "[]GEOIP,private,no-resolve"
+#interval = 0
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.mrs"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Lancidr.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.yaml"
 type = "clash-domain"
 interval = 28800
 
@@ -318,7 +324,7 @@ interval = 28800
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Domain.mrs"
+ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Domain.yaml"
 type = "clash-domain"
 interval = 28800
 
