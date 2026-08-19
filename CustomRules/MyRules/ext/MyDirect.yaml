@@ -23,6 +23,8 @@ payload:
 # AKKO SJ VPS
   - DOMAIN,sub.subsite.cloudns.ch
   - DOMAIN,sub.gugg.dpdns.org
+  - DOMAIN,ext.subsite.cloudns.ch
+  - DOMAIN,ext.gugg.dpdns.org
   - DOMAIN,akkodh.aufa.eu.org
   - DOMAIN,akkosj.kcfc.dpdns.org
   - IP-CIDR,38.59.242.75/32,no-resolve
