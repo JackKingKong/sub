@@ -260,7 +260,7 @@ dns:
     - "*.*.xboxlive.com"
     - "*.ipv6.microsoft.com"
     - xbox.*.microsoft.com
-    - xnotify.xboxlive.com
+	- xnotify.xboxlive.com
 	#其他
 	- teredo.*.*.*
     - teredo.*.*
