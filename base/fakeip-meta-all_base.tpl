@@ -54,28 +54,29 @@ sniffer:
   override-destination: true
   sniff:
     HTTP:
-      ports: [80, 8080-8880]
+      ports: [443, 8443]
       override-destination: true
     TLS:
       ports: [443, 8443]
+	  override-destination: true
     QUIC:
       ports: [443, 8443]
   #需要强制嗅探的域名（默认情况下只对IP进行嗅探）
   force-domain:
     #- +.v2ex.com
     #- "google.com"
-    - "+.netflix.com"
-    - "+.nflxvideo.net"
-    - "+.amazonaws.com"
-    - "+.media.dssott.com"
+    #- "+.netflix.com"
+    #- "+.nflxvideo.net"
+    #- "+.amazonaws.com"
+    #- "+.media.dssott.com"
   #需要跳过嗅探的域名。主要解决部分站点sni字段非域名，导致嗅探结果异常的问题，如米家设备Mijia Cloud  
   skip-domain:
-    - "+.apple.com"
+    #- "+.apple.com"
     - Mijia Cloud
     - dlg.io.mi.com
-    - "+.oray.com"
-    - "+.sunlogin.net"
-    - "+.push.apple.com"
+    #- "+.oray.com"
+    #- "+.sunlogin.net"
+    #- "+.push.apple.com"
 hosts:
   #raw.githubusercontent.com: 151.101.76.133
   #aktv.top: 172.64.154.91
@@ -101,7 +102,7 @@ dns:
   nameserver-policy:
     #【Meta专属】
     #"geosite:cn,private":
-    #  - https://120.53.53.53/dns-query
+    # - https://120.53.53.53/dns-query
     # - https://223.5.5.5/dns-query
     "geosite:cn,private": https://223.5.5.5/dns-query
   nameserver:
@@ -114,16 +115,19 @@ dns:
     #- https://9.9.9.9/dns-query
     #- https://208.67.222.222/dns-query
     #- https://94.140.14.140/dns-query
-    ##- tls://1.0.0.1:853
-    ##- tls://149.112.112.112:853
-    ##- tls://208.67.220.220:853
-    ##- tls://94.140.14.141:853
-    ##- https://101.101.101.101/dns-query
-    ##- tls://101.101.101.101:853
-    ##- tls://77.88.8.8:853
-    ##- tls://77.88.8.1:853
+    #- tls://1.0.0.1:853
+    #- tls://149.112.112.112:853
+    #- tls://208.67.220.220:853
+    #- tls://94.140.14.141:853
+    #- https://101.101.101.101/dns-query
+    #- tls://101.101.101.101:853
+    #- tls://77.88.8.8:853
+    #- tls://77.88.8.1:853
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
+	- https://kfzzxcx.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
+    - https://destitute2725.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
+    - https://prolonged3729.com:443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
   fallback-filter:
     #【Meta专属】:
     geosite:
@@ -164,6 +168,14 @@ dns:
       - "+.msftconnecttest.com"
       - "+.msftncsi.com"
   fake-ip-filter:
+    - 2da4834a-95f3-4487-8ec2-de7f5e8e2a61.p7mkn2zmfy.sbs
+    - caa9aaa3-5a14-4f0a-9068-8dec17f1a598.7az9h713x1.sbs
+    - f9f7950d-03b0-47c9-a309-268f3d426ec6.7az9h713x1.sbs
+    - e0c68221-8bd0-4c54-8c85-4fa9fa01e0f6.7az9h713x1.sbs
+    - e9fac5e5-e17b-4a64-b062-488257cfabcd.p7mkn2zmfy.sbs
+    - 926cff90-2036-4105-bb6a-08ef53f10313.7az9h713x1.sbs
+    - 3e83c38d-41f7-4fc1-bddb-c591b5339d64.7az9h713x1.sbs
+    - f0dbcc3a-3a0a-4a4c-b94d-b3a10e1a42b1.7az9h713x1.sbs
     #LAN 
     - "*.lan"
     - "*.localdomain"
@@ -246,8 +258,17 @@ dns:
     #Microsoft Xbox
     - xbox.*.*.microsoft.com
     - "*.*.xboxlive.com"
+    - "*.ipv6.microsoft.com"
     - xbox.*.microsoft.com
     - xnotify.xboxlive.com
+	#其他
+	- teredo.*.*.*
+    - teredo.*.*
+    - speedtest.cros.wr.pvp.net
+    - +.jjvip8.com
+    - www.douyu.com
+    - activityapi.huya.com
+    - activityapi.huya.com.w.cdngslb.com
     #Wotgame
     - "+.battlenet.com.cn"
     - "+.wotgame.cn"
@@ -289,6 +310,9 @@ dns:
     - "*.ff14.sdo.com"
     - ff.dorado.sdo.com
     #Bilibili
+	- www.bilibili.com
+    - api.bilibili.com
+    - a.w.bilicdn1.com
     - "*.mcdn.bilivideo.cn"
     #Disney Plus
     - "+.media.dssott.com"
