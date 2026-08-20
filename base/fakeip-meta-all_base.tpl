@@ -260,9 +260,9 @@ dns:
     - "*.*.xboxlive.com"
     - "*.ipv6.microsoft.com"
     - xbox.*.microsoft.com
-	- xnotify.xboxlive.com
-	#其他
-	- teredo.*.*.*
+    - xnotify.xboxlive.com
+    #其他
+    - teredo.*.*.*
     - teredo.*.*
     - speedtest.cros.wr.pvp.net
     - +.jjvip8.com
@@ -310,7 +310,7 @@ dns:
     - "*.ff14.sdo.com"
     - ff.dorado.sdo.com
     #Bilibili
-	- www.bilibili.com
+    - www.bilibili.com
     - api.bilibili.com
     - a.w.bilicdn1.com
     - "*.mcdn.bilivideo.cn"
