@@ -58,7 +58,7 @@ sniffer:
       override-destination: true
     TLS:
       ports: [443, 8443]
-	  override-destination: true
+      override-destination: true
     QUIC:
       ports: [443, 8443]
   #需要强制嗅探的域名（默认情况下只对IP进行嗅探）
