@@ -125,7 +125,7 @@ dns:
     #- tls://77.88.8.1:853
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
-	- https://kfzzxcx.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
+    - https://kfzzxcx.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
     - https://destitute2725.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
     - https://prolonged3729.com:443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
   fallback-filter:
