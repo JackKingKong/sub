@@ -43,11 +43,11 @@ ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/Cu
 type = "clash-classic"
 interval = 28800
 
-[[rulesets]]
-group = "🌏 REDDIT"
-ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/REDDIT.yaml"
-type = "clash-classic"
-interval = 28800
+#[[rulesets]]
+#group = "🌏 REDDIT"
+#ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/REDDIT.yaml"
+#type = "clash-classic"
+#interval = 28800
 
 [[rulesets]]
 group = "🍎 苹果服务"
