@@ -54,13 +54,13 @@ sniffer:
   override-destination: true
   sniff:
     HTTP:
-      ports: [443, 8443]
+      ports: [443]
       override-destination: true
     TLS:
-      ports: [443, 8443]
+      ports: [443]
       override-destination: true
     QUIC:
-      ports: [443, 8443]
+      ports: [443]
   #需要强制嗅探的域名（默认情况下只对IP进行嗅探）
   force-domain:
     #- +.v2ex.com
