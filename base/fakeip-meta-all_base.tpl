@@ -293,10 +293,10 @@ dns:
     #Apple Software Update Service
     - mesu.apple.com
     - swscan.apple.com
-    - swquery.apple.com
-    - swdownload.apple.com
-    - swcdn.apple.com
-    - swdist.apple.com
+    #- swquery.apple.com
+    #- swdownload.apple.com
+    #- swcdn.apple.com
+    #- swdist.apple.com
     #Google
     - lens.l.google.com
     - stun.l.google.com
