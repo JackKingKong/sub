@@ -99,10 +99,10 @@ dns:
     - https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
-    "geosite:cn,private":
-     - https://223.5.5.5/dns-query
-     - https://1.12.12.12/dns-query
-    #"geosite:cn,private": https://223.5.5.5/dns-query
+    #"geosite:cn,private":
+    # - https://223.5.5.5/dns-query
+    # - https://1.12.12.12/dns-query
+    "geosite:cn,private": https://223.5.5.5/dns-query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
     - https://223.5.5.5/dns-query
