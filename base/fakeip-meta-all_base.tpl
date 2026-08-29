@@ -86,87 +86,35 @@ dns:
   listen: 0.0.0.0:7874
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  prefer-h3: true
-  use-hosts: true
+  #核心】开启规则感知分流,当访问一个网站，Mihomo会先看你的分流规则，如果规则说它是DIRECT（国内/直连）：Mihomo只会去找direct-nameserver（国内DNS）解析；
+  #如果规则说它是PROXY（国外/代理）：Mihomo直接把域名发给远程代理节点，在海外无污染的环境下进行解析；未命中任何规则则使用nameserver解携。
+  respect-rules: true 
   #解析非IP的dns用的dns服务器,只支持纯IP
-  #default-nameserver:
-  #  - 223.5.5.5
-  #  - 119.29.29.29
-  #【Meta专属】解析代理服务器域名的dns
+  default-nameserver:
+    - tls://223.5.5.5:853
+	- tls://1.12.12.12:853
+  #解析代理服务器域名的dns
   proxy-server-nameserver:
-    #- 114.114.114.114
-    #- 119.29.29.29
-    - https://120.53.53.53/dns-query
     - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
-    #【Meta专属】
-    #"geosite:cn,private":
-    # - https://120.53.53.53/dns-query
-    # - https://223.5.5.5/dns-query
-    "geosite:cn,private": https://223.5.5.5/dns-query
-  nameserver:
-    #- 114.114.114.114
-    #- 119.29.29.29
-    - https://120.53.53.53/dns-query
+    "geosite:cn,private":
+     - https://223.5.5.5/dns-query
+     - https://1.12.12.12/dns-query
+    #"geosite:cn,private": https://223.5.5.5/dns-query
+  #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
+  direct-nameserver:
     - https://223.5.5.5/dns-query
-  fallback:
-    #- https://1.1.1.1/dns-query
-    #- https://9.9.9.9/dns-query
-    #- https://208.67.222.222/dns-query
-    #- https://94.140.14.140/dns-query
-    #- tls://1.0.0.1:853
-    #- tls://149.112.112.112:853
-    #- tls://208.67.220.220:853
-    #- tls://94.140.14.141:853
-    #- https://101.101.101.101/dns-query
-    #- tls://101.101.101.101:853
-    #- tls://77.88.8.8:853
-    #- tls://77.88.8.1:853
+    - https://1.12.12.12/dns-query
+  #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
+  nameserver:
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
     - https://kfzzxcx.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
     - https://destitute2725.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
     - https://prolonged3729.com:443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
-  fallback-filter:
-    #【Meta专属】:
-    geosite:
-      #- gfw
-      - "!cn"
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - ::/128
-      - ::1/128
-      - 2001::/32
-      - 0.0.0.0/8
-      - 10.0.0.0/8
-      - 100.64.0.0/10
-      - 127.0.0.0/8
-      - 169.254.0.0/16
-      - 172.16.0.0/12
-      - 192.0.0.0/24
-      - 192.0.2.0/24
-      - 192.88.99.0/24
-      - 192.168.0.0/16
-      - 198.18.0.0/15
-      - 198.51.100.0/24
-      - 203.0.113.0/24
-      - 224.0.0.0/4
-      - 240.0.0.0/4
-      - 255.255.255.255/32
-    domain:
-      - "+.pub.3gppnetwork.org"
-      - "+.proxy302.com"
-      - "+.iproyal.com"
-      - "+.smartproxy.com"
-      - "+.google.com"
-      - "+.facebook.com"
-      - "+.youtube.com"
-      - "+.githubusercontent.com"
-      - "+.googlevideo.com"
-      - "+.msftconnecttest.com"
-      - "+.msftncsi.com"
+  #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
   fake-ip-filter:
     - 2da4834a-95f3-4487-8ec2-de7f5e8e2a61.p7mkn2zmfy.sbs
     - caa9aaa3-5a14-4f0a-9068-8dec17f1a598.7az9h713x1.sbs
