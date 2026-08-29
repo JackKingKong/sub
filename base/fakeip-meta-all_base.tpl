@@ -92,7 +92,7 @@ dns:
   #解析非IP的dns用的dns服务器,只支持纯IP
   default-nameserver:
     - tls://223.5.5.5:853
-	- tls://1.12.12.12:853
+    - tls://1.12.12.12:853
   #解析代理服务器域名的dns
   proxy-server-nameserver:
     - https://223.5.5.5/dns-query
