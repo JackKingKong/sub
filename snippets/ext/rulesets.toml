@@ -334,10 +334,10 @@ ruleset = "https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules
 type = "clash-classic"
 interval = 28800
 
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOSITE,google-cn"
-interval = 0
+#[[rulesets]]
+#group = "🎯 全球直连"
+#ruleset = "[]GEOSITE,google-cn"
+#interval = 0
 
 [[rulesets]]
 group = "🎯 全球直连"
