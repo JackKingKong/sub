@@ -1,13 +1,13 @@
 payload:
 # bybit 
-  - DOMAIN-KEYWORD,bybit
+# - DOMAIN-KEYWORD,bybit
+
 # Gate 
-  - DOMAIN-KEYWORD,gate
+#  - DOMAIN-KEYWORD,gate
 
 # 欧易
 #  - DOMAIN-KEYWORD,okx
-#  - DOMAIN-SUFFIX,okx.com
-#  - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+
 
 
 
