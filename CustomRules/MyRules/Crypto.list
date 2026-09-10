@@ -2,4 +2,11 @@
 DOMAIN-KEYWORD,bybit
 
 #Gate
-DOMAIN-SUFFIX,gate.com
+DOMAIN-KEYWORD,gate
+
+# 欧易
+#DOMAIN-KEYWORD,okx
+#DOMAIN-SUFFIX,okx.com
+#DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+
+
