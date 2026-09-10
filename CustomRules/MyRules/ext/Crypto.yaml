@@ -1,0 +1,5 @@
+payload:
+# bybit 
+  - DOMAIN-KEYWORD,bybit
+# Gate 
+  - DOMAIN-SUFFIX,gate.com

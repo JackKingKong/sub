@@ -50,6 +50,12 @@ interval = 28800
 #interval = 28800
 
 [[rulesets]]
+group = "🌏 加密货币"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Crypto.yaml"
+type = "clash-classic"
+interval = 28800
+
+[[rulesets]]
 group = "🍎 苹果服务"
 ruleset = "[]GEOSITE,apple"
 interval = 0
