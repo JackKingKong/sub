@@ -1,14 +1,14 @@
 payload:
 # bybit 
-# - DOMAIN-KEYWORD,bybit
+ - DOMAIN-KEYWORD,bybit
 
 # Gate 
-#  - DOMAIN-KEYWORD,gate
+  - DOMAIN-KEYWORD,gate
 
 # 欧易
-#  - DOMAIN-KEYWORD,okx
+  - DOMAIN-KEYWORD,okx
 
 # BiyaPay
-#  - DOMAIN-KEYWORD,biya
+  - DOMAIN-KEYWORD,biya
 
 
