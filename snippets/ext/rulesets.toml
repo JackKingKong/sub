@@ -242,10 +242,10 @@ group = "🎥 台湾媒体"
 ruleset = "[]GEOSITE,tw"
 interval = 0
 
-[[rulesets]]
-group = "🎥 台湾媒体"
-ruleset = "[]GEOIP,tw,no-resolve"
-interval = 0
+#[[rulesets]]
+#group = "🎥 台湾媒体"
+#ruleset = "[]GEOIP,tw,no-resolve"
+#interval = 0
 
 [[rulesets]]
 group = "🎥 日本媒体"
