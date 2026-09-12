@@ -1,6 +1,6 @@
 payload:
 # bybit 
- - DOMAIN-KEYWORD,bybit
+  - DOMAIN-KEYWORD,bybit
 
 # Gate 
   - DOMAIN-KEYWORD,gate
