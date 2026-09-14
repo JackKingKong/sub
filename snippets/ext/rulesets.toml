@@ -176,11 +176,6 @@ ruleset = "[]GEOSITE,primevideo"
 interval = 0
 
 [[rulesets]]
-group = "🎥 Bahamut"
-ruleset = "[]GEOSITE,bahamut"
-interval = 0
-
-[[rulesets]]
 group = "🎥 TikTok"
 ruleset = "[]GEOSITE,tiktok"
 interval = 0
@@ -242,6 +237,11 @@ group = "🎥 台湾媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/LiTV/LiTV.yaml"
 type = "clash-classic"
 interval = 28800
+
+[[rulesets]]
+group = "🎥 台湾媒体"
+ruleset = "[]GEOSITE,bahamut"
+interval = 0
 
 [[rulesets]]
 group = "🎥 日本媒体"
