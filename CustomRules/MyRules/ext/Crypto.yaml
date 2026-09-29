@@ -12,6 +12,7 @@ payload:
 
 # 欧易
   - DOMAIN-KEYWORD,okx
+  - DOMAIN-KEYWORD,oklink
 
 # BiyaPay
   - DOMAIN-KEYWORD,biya
