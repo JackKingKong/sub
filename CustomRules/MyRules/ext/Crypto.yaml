@@ -1,20 +1,58 @@
 payload:
 # bybit 
-  - DOMAIN-KEYWORD,bybit
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,bybitglobal.com
+  - DOMAIN-SUFFIX,bybit.biz
   - DOMAIN-SUFFIX,byapps.net
+  - DOMAIN-SUFFIX,bybit-aws.com
+  - DOMAIN-SUFFIX,bybit.info
+  - DOMAIN-SUFFIX,bybit.co
+  - DOMAIN-SUFFIX,bybit.mobi
+  - DOMAIN-SUFFIX,byffbb.com
+  - DOMAIN-SUFFIX,byd3c3.com
   - DOMAIN-SUFFIX,bybdc6.com
   - DOMAIN-SUFFIX,byabcde.com
-  - DOMAIN-SUFFIX,byd3c3.com
-  - DOMAIN-SUFFIX,bycsi.com
+  - DOMAIN-SUFFIX,bybit.global
+  - DOMAIN-KEYWORD,bybit
 
 # Gate 
-  - DOMAIN-KEYWORD,gate
+  - DOMAIN-SUFFIX,gate.io
+  - DOMAIN-SUFFIX,gate.ac
+  - DOMAIN-SUFFIX,gateapi.io
+  - DOMAIN-SUFFIX,gatedata.org
+  - DOMAIN-SUFFIX,gateio.ws
+  - DOMAIN-SUFFIX,gateio.com
+  - DOMAIN-SUFFIX,gateio.live
+  - DOMAIN-SUFFIX,gate.com
+  - DOMAIN-KEYWORD,gateio
 
 # 欧易
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,okx.link
+  - DOMAIN-SUFFIX,okx.biz
+  - DOMAIN-SUFFIX,okx.mobi
+  - DOMAIN-SUFFIX,okx.tech
+  - DOMAIN-SUFFIX,okx.cool
+  - DOMAIN-SUFFIX,okx.guide
+  - DOMAIN-SUFFIX,okx.vip
+  - DOMAIN-SUFFIX,okx.fun
+  - DOMAIN-SUFFIX,okex.biz
+  - DOMAIN-SUFFIX,okex.me
+  - DOMAIN-SUFFIX,okx-dns.com
+  - DOMAIN-SUFFIX,okx-dns1.com
+  - DOMAIN-SUFFIX,okx-dns2.com
+  - DOMAIN-SUFFIX,okx-dns3.com
   - DOMAIN-KEYWORD,okx
+  - DOMAIN-KEYWORD,okex
   - DOMAIN-KEYWORD,oklink
 
 # BiyaPay
+  - DOMAIN-SUFFIX,biyapay.com
+  - DOMAIN-SUFFIX,biyapay.net
+  - DOMAIN-SUFFIX,biyapay.io
+  - DOMAIN-SUFFIX,biyapay.vip
+  - DOMAIN-SUFFIX,biyagl.com
   - DOMAIN-KEYWORD,biya
 
 
