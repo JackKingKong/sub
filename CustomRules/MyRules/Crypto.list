@@ -7,12 +7,18 @@ DOMAIN-SUFFIX,bybit-aws.com
 DOMAIN-SUFFIX,bybit.info
 DOMAIN-SUFFIX,bybit.co
 DOMAIN-SUFFIX,bybit.mobi
+DOMAIN-SUFFIX,bybit.vip
+DOMAIN-SUFFIX,bybit.live
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybit-exchange.com
+DOMAIN-SUFFIX,bybit-static.com
 DOMAIN-SUFFIX,byffbb.com
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,bybdc6.com
 DOMAIN-SUFFIX,byabcde.com
 DOMAIN-SUFFIX,bybit.global
 DOMAIN-KEYWORD,bybit
+DOMAIN-KEYWORD,byapps
 
 #Gate
 DOMAIN-SUFFIX,gate.io
