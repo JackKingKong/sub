@@ -6,3 +6,12 @@ DOMAIN-SUFFIX,t-mobile.com
 #IP-CIDR,208.54.0.0/16,no-resolve
 #IP-CIDR,66.94.0.0/19,no-resolve
 #IP-CIDR,206.29.177.36/32,no-resolve
+
+# 匹配 Tello (T-Mobile) ePDG 与 IMS 鉴权域名
+#DOMAIN-SUFFIX,3gppnetwork.org
+#DOMAIN-SUFFIX,t-mobile.com
+DOMAIN-KEYWORD,epdg.epc.mnc260.mcc310
+# 匹配 Wi-Fi Calling 的 IPsec 隧道核心端口 (逻辑与规则需要 Mihomo 支持)
+#AND,((NETWORK,udp),(DST-PORT,500))
+#AND,((NETWORK,udp),(DST-PORT,4500))
+

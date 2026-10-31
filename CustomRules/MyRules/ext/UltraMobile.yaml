@@ -7,3 +7,12 @@ payload:
 #  - IP-CIDR,208.54.0.0/16,no-resolve
 #  - IP-CIDR,66.94.0.0/19,no-resolve
 #  - IP-CIDR,206.29.177.36/32,no-resolve
+
+# Tello / T-Mobile Domains
+#  - DOMAIN-SUFFIX,3gppnetwork.org
+#  - DOMAIN-SUFFIX,t-mobile.com
+  - DOMAIN-KEYWORD,epdg.epc.mnc260.mcc310
+# IPsec 隧道端口 (UDP)
+#  - DST-PORT,500
+#  - DST-PORT,4500
+
