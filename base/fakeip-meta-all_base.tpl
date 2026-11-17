@@ -78,8 +78,10 @@ sniffer:
     #- "+.sunlogin.net"
     #- "+.push.apple.com"
 hosts:
-  #raw.githubusercontent.com: 151.101.76.133
-  #aktv.top: 172.64.154.91
+  94c0a4a1-189e-4016-8243-ff282e52aab6.p7mkn2zmfy.sbs: 7e0f96bd-dba1-4fcc-be6d-e3b07c1c27ca.p7mkn2zmfy.sbs
+  1bdf7b80-de1f-4a65-92f9-985a8eb67b52.7az9h713x1.sbs: 6379ae28-281a-4c73-a90e-c1ff53e784a7.7az9h713x1.sbs
+  8c07abaf-2fd6-4ea8-8d03-53c28ff6809c.7az9h713x1.sbs: 0dc902b7-0a94-4aae-b714-5c5dc85eb10a.7az9h713x1.sbs
+  5d5bd015-6b70-4061-ae61-226006e1ab4d.7az9h713x1.sbs: 15602296-f637-4b71-972b-ca937a8710c4.7az9h713x1.sbs
 dns:
   enable: true
   ipv6: true
@@ -92,27 +94,23 @@ dns:
   use-hosts: true
   #解析非IP的dns用的dns服务器,只支持纯IP
   default-nameserver:
-    - 119.28.28.28
-    - 119.29.29.29
-    - 223.5.5.5
-    - 223.6.6.6
+    - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
   #解析代理服务器域名的dns
   proxy-server-nameserver:
     - udp://127.0.0.1:7874
     #- https://223.5.5.5/dns-query
     #- https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
-  #nameserver-policy:
-    #"geosite:cn,private":
-    # - https://223.5.5.5/dns-query
-    # - https://1.12.12.12/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+     - https://223.5.5.5/dns-query
+     - https://1.12.12.12/dns-query
     #"geosite:cn,private": https://223.5.5.5/dns-query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
-    - 119.28.28.28
-    - 119.29.29.29
-    - 223.5.5.5
-    - 223.6.6.6
+    - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
   #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
   nameserver:
     #- https://akkodh.aufa.eu.org/my-doh
@@ -314,11 +312,7 @@ dns:
     - blasphemy4985.com
     - destitute2725.com
     - prolonged3729.com
-  hosts:
-    94c0a4a1-189e-4016-8243-ff282e52aab6.p7mkn2zmfy.sbs: 7e0f96bd-dba1-4fcc-be6d-e3b07c1c27ca.p7mkn2zmfy.sbs
-    1bdf7b80-de1f-4a65-92f9-985a8eb67b52.7az9h713x1.sbs: 6379ae28-281a-4c73-a90e-c1ff53e784a7.7az9h713x1.sbs
-    8c07abaf-2fd6-4ea8-8d03-53c28ff6809c.7az9h713x1.sbs: 0dc902b7-0a94-4aae-b714-5c5dc85eb10a.7az9h713x1.sbs
-    5d5bd015-6b70-4061-ae61-226006e1ab4d.7az9h713x1.sbs: 15602296-f637-4b71-972b-ca937a8710c4.7az9h713x1.sbs
+
 
 
 {% if local.clash.new_field_name == "true" %}
