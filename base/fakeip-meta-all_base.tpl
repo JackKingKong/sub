@@ -83,16 +83,19 @@ hosts:
 dns:
   enable: true
   ipv6: true
-  listen: 0.0.0.0:7874
+  listen: 127.0.0.1:7874
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   #核心开启规则感知分流,当访问一个网站，Mihomo会先看你的分流规则，如果规则说它是DIRECT（国内/直连）：Mihomo只会去找direct-nameserver（国内DNS）解析；
   #如果规则说它是PROXY（国外/代理）：Mihomo直接把域名发给远程代理节点，在海外无污染的环境下进行解析；未命中任何规则则使用nameserver解携。
-  respect-rules: true 
+  respect-rules: true
+  use-hosts: true
   #解析非IP的dns用的dns服务器,只支持纯IP
   default-nameserver:
-    - tls://223.5.5.5:853
-    - tls://1.12.12.12:853
+    - 119.28.28.28
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
   #解析代理服务器域名的dns
   proxy-server-nameserver:
     - udp://127.0.0.1:7874
@@ -106,8 +109,10 @@ dns:
     #"geosite:cn,private": https://223.5.5.5/dns-query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
-    - https://223.5.5.5/dns-query
-    - https://1.12.12.12/dns-query
+    - 119.28.28.28
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
   #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
   nameserver:
     #- https://akkodh.aufa.eu.org/my-doh
