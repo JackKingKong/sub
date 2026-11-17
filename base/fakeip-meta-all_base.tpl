@@ -306,7 +306,7 @@ dns:
     - "+.iproyal.com"
     - "+.smartproxy.com"
 	#Naixi
-	- blasphemy4985.com
+    - blasphemy4985.com
     - destitute2725.com
     - prolonged3729.com
 
