@@ -2,7 +2,7 @@
 🌏 自定义代理,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 🌏 自定义拦截,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list
 🌏 魅影,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Maying.list
-🌏 UltraMobile,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/UltraMobile.list
+🌏 US-WiFiCalling,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/US-WiFiCalling.list
 #🌏 Giffgaff,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Giffgaff.list
 #🌏 VPSJP,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list
 🌏 VPSKR,https://gh.aufa.eu.org/https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSKR.list

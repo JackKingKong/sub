@@ -26,8 +26,8 @@ type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
-group = "🌏 UltraMobile"
-ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/UltraMobile.yaml"
+group = "🌏 US-WiFiCalling"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/US-WiFiCalling.yaml"
 type = "clash-classic"
 interval = 28800
 
