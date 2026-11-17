@@ -86,7 +86,7 @@ dns:
   listen: 0.0.0.0:7874
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  #核心】开启规则感知分流,当访问一个网站，Mihomo会先看你的分流规则，如果规则说它是DIRECT（国内/直连）：Mihomo只会去找direct-nameserver（国内DNS）解析；
+  #核心开启规则感知分流,当访问一个网站，Mihomo会先看你的分流规则，如果规则说它是DIRECT（国内/直连）：Mihomo只会去找direct-nameserver（国内DNS）解析；
   #如果规则说它是PROXY（国外/代理）：Mihomo直接把域名发给远程代理节点，在海外无污染的环境下进行解析；未命中任何规则则使用nameserver解携。
   respect-rules: true 
   #解析非IP的dns用的dns服务器,只支持纯IP
@@ -95,13 +95,14 @@ dns:
     - tls://1.12.12.12:853
   #解析代理服务器域名的dns
   proxy-server-nameserver:
-    - https://223.5.5.5/dns-query
-    - https://1.12.12.12/dns-query
+    - udp://127.0.0.1:7874
+    #- https://223.5.5.5/dns-query
+    #- https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
-  nameserver-policy:
-    "geosite:cn,private":
-     - https://223.5.5.5/dns-query
-     - https://1.12.12.12/dns-query
+  #nameserver-policy:
+    #"geosite:cn,private":
+    # - https://223.5.5.5/dns-query
+    # - https://1.12.12.12/dns-query
     #"geosite:cn,private": https://223.5.5.5/dns-query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
@@ -109,21 +110,22 @@ dns:
     - https://1.12.12.12/dns-query
   #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
   nameserver:
-    - https://akkodh.aufa.eu.org/my-doh
-    - https://dh.aufa.eu.org/my-doh
-    - https://kfzzxcx.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
-    - https://destitute2725.com:44443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
-    - https://prolonged3729.com:443/dns-query/c1c12df9-4764-4920-af26-e19177b4b2ac
+    #- https://akkodh.aufa.eu.org/my-doh
+    #- https://dh.aufa.eu.org/my-doh
+    - https://iqsjp.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    - https://blasphemy4985.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    - https://destitute2725.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    - https://prolonged3729.com:443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
   fake-ip-filter:
-    - 2da4834a-95f3-4487-8ec2-de7f5e8e2a61.p7mkn2zmfy.sbs
-    - caa9aaa3-5a14-4f0a-9068-8dec17f1a598.7az9h713x1.sbs
-    - f9f7950d-03b0-47c9-a309-268f3d426ec6.7az9h713x1.sbs
-    - e0c68221-8bd0-4c54-8c85-4fa9fa01e0f6.7az9h713x1.sbs
-    - e9fac5e5-e17b-4a64-b062-488257cfabcd.p7mkn2zmfy.sbs
-    - 926cff90-2036-4105-bb6a-08ef53f10313.7az9h713x1.sbs
-    - 3e83c38d-41f7-4fc1-bddb-c591b5339d64.7az9h713x1.sbs
-    - f0dbcc3a-3a0a-4a4c-b94d-b3a10e1a42b1.7az9h713x1.sbs
+    - 94c0a4a1-189e-4016-8243-ff282e52aab6.p7mkn2zmfy.sbs
+    - 1bdf7b80-de1f-4a65-92f9-985a8eb67b52.7az9h713x1.sbs
+    - 8c07abaf-2fd6-4ea8-8d03-53c28ff6809c.7az9h713x1.sbs
+    - 5d5bd015-6b70-4061-ae61-226006e1ab4d.7az9h713x1.sbs
+    - 7e0f96bd-dba1-4fcc-be6d-e3b07c1c27ca.p7mkn2zmfy.sbs
+    - 6379ae28-281a-4c73-a90e-c1ff53e784a7.7az9h713x1.sbs
+    - 0dc902b7-0a94-4aae-b714-5c5dc85eb10a.7az9h713x1.sbs
+    - 15602296-f637-4b71-972b-ca937a8710c4.7az9h713x1.sbs
     #LAN 
     - "*.lan"
     - "*.localdomain"
@@ -303,6 +305,10 @@ dns:
     - "+.proxy302.com"
     - "+.iproyal.com"
     - "+.smartproxy.com"
+	#Naixi
+	- blasphemy4985.com
+    - destitute2725.com
+    - prolonged3729.com
 
 
 {% if local.clash.new_field_name == "true" %}
