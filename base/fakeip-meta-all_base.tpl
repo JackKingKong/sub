@@ -94,13 +94,13 @@ dns:
   use-hosts: true
   #解析非IP的dns用的dns服务器,只支持纯IP
   default-nameserver:
-    - https://223.5.5.5/dns-query
-    - https://1.12.12.12/dns-query
+    - tls://223.5.5.5:853
+    - tls://1.12.12.12:853
   #解析代理服务器域名的dns
   proxy-server-nameserver:
-    - udp://127.0.0.1:7874
-    #- https://223.5.5.5/dns-query
-    #- https://1.12.12.12/dns-query
+    #- udp://127.0.0.1:7874
+    - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
     "geosite:cn,private":
