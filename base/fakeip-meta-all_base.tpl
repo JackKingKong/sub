@@ -85,7 +85,7 @@ hosts:
 dns:
   enable: true
   ipv6: true
-  listen: 127.0.0.1:7874
+  listen: 0.0.0.0:7874
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   #核心开启规则感知分流,当访问一个网站，Mihomo会先看你的分流规则，如果规则说它是DIRECT（国内/直连）：Mihomo只会去找direct-nameserver（国内DNS）解析；
@@ -98,14 +98,14 @@ dns:
     - tls://1.12.12.12:853
   #解析代理服务器域名的dns
   proxy-server-nameserver:
-    #- udp://127.0.0.1:7874
-    - https://223.5.5.5/dns-query
-    - https://1.12.12.12/dns-query
+    - udp://127.0.0.1:7874
+    #- https://223.5.5.5/dns-query
+    #- https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
-  nameserver-policy:
-    "geosite:cn,private":
-     - https://223.5.5.5/dns-query
-     - https://1.12.12.12/dns-query
+  #nameserver-policy:
+    #"geosite:cn,private":
+    # - https://223.5.5.5/dns-query
+    # - https://1.12.12.12/dns-query
     #"geosite:cn,private": https://223.5.5.5/dns-query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
@@ -129,6 +129,9 @@ dns:
     - 6379ae28-281a-4c73-a90e-c1ff53e784a7.7az9h713x1.sbs
     - 0dc902b7-0a94-4aae-b714-5c5dc85eb10a.7az9h713x1.sbs
     - 15602296-f637-4b71-972b-ca937a8710c4.7az9h713x1.sbs
+    - "+.cache872671.com"
+    - "+.down657821.com"
+    - "+.node897828.com"
     #LAN 
     - "*.lan"
     - "*.localdomain"
