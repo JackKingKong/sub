@@ -110,10 +110,10 @@ dns:
   nameserver:
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
-    - https://iqsjp.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    - https://blasphemy4985.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    - https://destitute2725.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    - https://prolonged3729.com:443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://iqsjp.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://blasphemy4985.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://destitute2725.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://prolonged3729.com:443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
   fake-ip-filter:
     #LAN 
@@ -295,12 +295,6 @@ dns:
     - "+.proxy302.com"
     - "+.iproyal.com"
     - "+.smartproxy.com"
-	#Naixi
-    - blasphemy4985.com
-    - destitute2725.com
-    - prolonged3729.com
-
-
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~

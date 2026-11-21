@@ -77,11 +77,6 @@ sniffer:
     #- "+.oray.com"
     #- "+.sunlogin.net"
     #- "+.push.apple.com"
-hosts:
-  94c0a4a1-189e-4016-8243-ff282e52aab6.p7mkn2zmfy.sbs: 7e0f96bd-dba1-4fcc-be6d-e3b07c1c27ca.p7mkn2zmfy.sbs
-  1bdf7b80-de1f-4a65-92f9-985a8eb67b52.7az9h713x1.sbs: 6379ae28-281a-4c73-a90e-c1ff53e784a7.7az9h713x1.sbs
-  8c07abaf-2fd6-4ea8-8d03-53c28ff6809c.7az9h713x1.sbs: 0dc902b7-0a94-4aae-b714-5c5dc85eb10a.7az9h713x1.sbs
-  5d5bd015-6b70-4061-ae61-226006e1ab4d.7az9h713x1.sbs: 15602296-f637-4b71-972b-ca937a8710c4.7az9h713x1.sbs
 dns:
   enable: true
   ipv6: true
@@ -98,9 +93,9 @@ dns:
     - tls://1.12.12.12:853
   #解析代理服务器域名的dns
   proxy-server-nameserver:
-    - udp://127.0.0.1:7874
-    #- https://223.5.5.5/dns-query
-    #- https://1.12.12.12/dns-query
+    #- udp://127.0.0.1:7874
+    - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
   #指定域名使用自定义DNS解析
   nameserver-policy:
     "geosite:cn,private":
@@ -113,25 +108,14 @@ dns:
     - https://1.12.12.12/dns-query
   #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
   nameserver:
-    #- https://akkodh.aufa.eu.org/my-doh
-    #- https://dh.aufa.eu.org/my-doh
-    - https://iqsjp.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    - https://blasphemy4985.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    - https://destitute2725.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    - https://prolonged3729.com:443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    - https://akkodh.aufa.eu.org/my-doh
+    - https://dh.aufa.eu.org/my-doh
+    #- https://iqsjp.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://blasphemy4985.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://destitute2725.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    #- https://prolonged3729.com:443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
   fake-ip-filter:
-    - 94c0a4a1-189e-4016-8243-ff282e52aab6.p7mkn2zmfy.sbs
-    - 1bdf7b80-de1f-4a65-92f9-985a8eb67b52.7az9h713x1.sbs
-    - 8c07abaf-2fd6-4ea8-8d03-53c28ff6809c.7az9h713x1.sbs
-    - 5d5bd015-6b70-4061-ae61-226006e1ab4d.7az9h713x1.sbs
-    - 7e0f96bd-dba1-4fcc-be6d-e3b07c1c27ca.p7mkn2zmfy.sbs
-    - 6379ae28-281a-4c73-a90e-c1ff53e784a7.7az9h713x1.sbs
-    - 0dc902b7-0a94-4aae-b714-5c5dc85eb10a.7az9h713x1.sbs
-    - 15602296-f637-4b71-972b-ca937a8710c4.7az9h713x1.sbs
-    - "+.cache872671.com"
-    - "+.down657821.com"
-    - "+.node897828.com"
     #LAN 
     - "*.lan"
     - "*.localdomain"
@@ -311,12 +295,6 @@ dns:
     - "+.proxy302.com"
     - "+.iproyal.com"
     - "+.smartproxy.com"
-	#Naixi
-    - blasphemy4985.com
-    - destitute2725.com
-    - prolonged3729.com
-
-
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
