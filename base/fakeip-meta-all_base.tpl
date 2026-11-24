@@ -142,7 +142,7 @@ dns:
     '+.captive.apple.com,+.msftconnecttest.com,+.connect.rom.miui.com,+.connectivitycheck.gstatic.com,+.connectivitycheck.platform.hicloud.com':
       - https://223.5.5.5/dns-query
       - https://1.12.12.12/dns-query
-    "+.github.com":
+    "+.github.com,+.githubusercontent.com":
       - https://odvr.nic.cz/doh
       - https://dns.digitale-gesellschaft.ch/dns-query
       - https://dnspub.restena.lu/dns-query
@@ -155,10 +155,12 @@ dns:
     - https://1.12.12.12/dns-query
   #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
   nameserver:
-    - https://odvr.nic.cz/doh
-    - https://dns.digitale-gesellschaft.ch/dns-query
-    - https://dnspub.restena.lu/dns-query
-    - https://doh.applied-privacy.net/query
+    - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
+    #- https://odvr.nic.cz/doh
+    #- https://dns.digitale-gesellschaft.ch/dns-query
+    #- https://dnspub.restena.lu/dns-query
+    #- https://doh.applied-privacy.net/query
     #- https://akkodh.aufa.eu.org/my-doh
     #- https://dh.aufa.eu.org/my-doh
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
