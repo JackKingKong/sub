@@ -145,10 +145,10 @@ dns:
     "+.github.com,+.githubusercontent.com,+.githubassets.com":
       - https://akkodh.aufa.eu.org/my-doh
       - https://dh.aufa.eu.org/my-doh
-      - https://odvr.nic.cz/doh
-      - https://dns.digitale-gesellschaft.ch/dns-query
-      - https://dnspub.restena.lu/dns-query
-      - https://doh.applied-privacy.net/query
+      #- https://odvr.nic.cz/doh
+      #- https://dns.digitale-gesellschaft.ch/dns-query
+      #- https://dnspub.restena.lu/dns-query
+      #- https://doh.applied-privacy.net/query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
     - https://223.5.5.5/dns-query
@@ -157,10 +157,10 @@ dns:
   nameserver:
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
-    - https://odvr.nic.cz/doh
-    - https://dns.digitale-gesellschaft.ch/dns-query
-    - https://dnspub.restena.lu/dns-query
-    - https://doh.applied-privacy.net/query
+    #- https://odvr.nic.cz/doh
+    #- https://dns.digitale-gesellschaft.ch/dns-query
+    #- https://dnspub.restena.lu/dns-query
+    #- https://doh.applied-privacy.net/query
     #- https://223.5.5.5/dns-query
     #- https://1.12.12.12/dns-query
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
