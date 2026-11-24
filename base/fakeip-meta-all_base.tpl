@@ -142,7 +142,7 @@ dns:
     '+.captive.apple.com,+.msftconnecttest.com,+.connect.rom.miui.com,+.connectivitycheck.gstatic.com,+.connectivitycheck.platform.hicloud.com':
       - https://223.5.5.5/dns-query
       - https://1.12.12.12/dns-query
-    "+.github.com,+.githubusercontent.com":
+    "+.github.com,+.githubusercontent.com,+.githubassets.com":
       - https://akkodh.aufa.eu.org/my-doh
       - https://dh.aufa.eu.org/my-doh
       - https://odvr.nic.cz/doh
