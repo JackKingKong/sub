@@ -143,8 +143,12 @@ dns:
       - https://223.5.5.5/dns-query
       - https://1.12.12.12/dns-query
     "+.github.com":
-      - https://akkodh.aufa.eu.org/my-doh
-      - https://dh.aufa.eu.org/my-doh
+      - https://odvr.nic.cz/doh
+      - https://dns.digitale-gesellschaft.ch/dns-query
+      - https://dnspub.restena.lu/dns-query
+      - https://doh.applied-privacy.net/query
+      #- https://akkodh.aufa.eu.org/my-doh
+      #- https://dh.aufa.eu.org/my-doh
     #"geosite:cn,private": https://223.5.5.5/dns-query
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
@@ -152,12 +156,12 @@ dns:
     - https://1.12.12.12/dns-query
   #默认兜底 DNS（未命中任何明确直连规则的流量走这里）
   nameserver:
-    - https://akkodh.aufa.eu.org/my-doh
-    - https://dh.aufa.eu.org/my-doh
-    #- https://iqsjp.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    #- https://blasphemy4985.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    #- https://destitute2725.com:44443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
-    #- https://prolonged3729.com:443/dns-query/ef3521c5-3c1b-41b4-bf6a-9b36007e2b99
+    - https://odvr.nic.cz/doh
+    - https://dns.digitale-gesellschaft.ch/dns-query
+    - https://dnspub.restena.lu/dns-query
+    - https://doh.applied-privacy.net/query
+    #- https://akkodh.aufa.eu.org/my-doh
+    #- https://dh.aufa.eu.org/my-doh
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
   fake-ip-filter:
     #LAN 
