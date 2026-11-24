@@ -149,13 +149,6 @@ dns:
       - https://doh.applied-privacy.net/query
       #- https://akkodh.aufa.eu.org/my-doh
       #- https://dh.aufa.eu.org/my-doh
-    "+.githubusercontent.com":
-      - https://odvr.nic.cz/doh
-      - https://dns.digitale-gesellschaft.ch/dns-query
-      - https://dnspub.restena.lu/dns-query
-      - https://doh.applied-privacy.net/query
-      #- https://akkodh.aufa.eu.org/my-doh
-      #- https://dh.aufa.eu.org/my-doh
   #直连专属 DNS（当规则判定为 DIRECT 时，强制走这里)
   direct-nameserver:
     - https://223.5.5.5/dns-query
