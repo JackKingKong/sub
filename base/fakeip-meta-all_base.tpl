@@ -84,6 +84,7 @@ cfw-bypass:
   - 192.168.*
   - <local>
 hosts:
+  #TAG
   055c165d-3142-401f-a43e-6a2681e72517.afdiancdn.org: 03bc4a78-642b-4efa-9f56-911bc5cf94e0.portail-offres.top
   0b7a0f52-da42-45b1-8a50-96dacfb23ac9.afdiancdn.org: 03bc4a78-642b-4efa-9f56-911bc5cf94e0.portail-offres.top
   2cf48aa5-ae3d-48b8-a500-e0b24c21c9a8.aixifan7498.com: 5c32a47c-ee3d-4061-8207-796ae470ec3c.sfr-bouygues.cloud
@@ -114,6 +115,11 @@ hosts:
   e46a98ed-7ebb-45a3-8b6a-49c35e60084c.aixifan7498.com: 4165c431-8650-4af0-a0d2-8b8e3c19345c.sfr-bouygues.cloud
   ec3bcbcc-f748-4556-b821-88badb739206.aixifan7498.com: 4bcd3033-6655-4d56-8763-4da6f376c1ee.sfr-bouygues.cloud
   ffef53ac-e4fe-4a47-ab4a-911247dd7ea0.aixifan7498.com: 6e85eef3-bcaf-444a-8283-8aac0d554cbc.sfr-bouygues.cloud
+  #NaiXi
+  1a0e1c55-0b98-4ffc-bd02-7d61d8d57aec.qrdi55e0ic.sbs: e9936b22-1883-4426-81d1-f6d89f56a042.qrdi55e0ic.sbs
+  b27f201c-6f90-40e5-9aa9-10f2371a2c2b.zkk30xnw5k.sbs: 9b5a1977-4e9b-47a8-8c59-11de2ce4a882.zkk30xnw5k.sbs
+  457a09f5-eebd-4b2f-96cb-beb8ca7e7de4.6pp0rpfo8b.sbs: bd82064a-f54b-4239-b978-5b2e5f6ece9e.6pp0rpfo8b.sbs
+  385405cd-d769-4c63-9ee1-f2d1bb591fd2.qrdi55e0ic.sbs: 566a9eae-61bb-4a14-9c18-ecd2c547e224.qrdi55e0ic.sbs
 dns:
   enable: true
   ipv6: true
@@ -352,6 +358,22 @@ dns:
     - "+.cache872671.com"
     - "+.down657821.com"
     - "+.node897828.com"
+    #NaiXi
+    - 1a0e1c55-0b98-4ffc-bd02-7d61d8d57aec.qrdi55e0ic.sbs
+    - b27f201c-6f90-40e5-9aa9-10f2371a2c2b.zkk30xnw5k.sbs
+    - 457a09f5-eebd-4b2f-96cb-beb8ca7e7de4.6pp0rpfo8b.sbs
+    - 385405cd-d769-4c63-9ee1-f2d1bb591fd2.qrdi55e0ic.sbs
+    - e9936b22-1883-4426-81d1-f6d89f56a042.qrdi55e0ic.sbs
+    - 9b5a1977-4e9b-47a8-8c59-11de2ce4a882.zkk30xnw5k.sbs
+    - bd82064a-f54b-4239-b978-5b2e5f6ece9e.6pp0rpfo8b.sbs
+    - 566a9eae-61bb-4a14-9c18-ecd2c547e224.qrdi55e0ic.sbs
+    - international.xu84r0qsh.sbs
+    - international.n2hlutbws.sbs
+    - international.8c5ecp7fb.sbs
+    - iqsjp.com
+    - blasphemy4985.com
+    - destitute2725.com
+    - prolonged3729.com
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
