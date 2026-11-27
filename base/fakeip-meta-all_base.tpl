@@ -148,9 +148,9 @@ dns:
     '+.captive.apple.com,+.msftconnecttest.com,+.connect.rom.miui.com,+.connectivitycheck.gstatic.com,+.connectivitycheck.platform.hicloud.com':
       - https://223.5.5.5/dns-query
       - https://1.12.12.12/dns-query
-    "+.github.com,+.githubusercontent.com,+.githubassets.com":
-      - https://akkodh.aufa.eu.org/my-doh
-      - https://dh.aufa.eu.org/my-doh
+    #"+.github.com,+.githubusercontent.com,+.githubassets.com":
+      #- https://akkodh.aufa.eu.org/my-doh
+      #- https://dh.aufa.eu.org/my-doh
       #- https://odvr.nic.cz/doh
       #- https://dns.digitale-gesellschaft.ch/dns-query
       #- https://dnspub.restena.lu/dns-query
@@ -163,12 +163,10 @@ dns:
   nameserver:
     - https://akkodh.aufa.eu.org/my-doh
     - https://dh.aufa.eu.org/my-doh
-    #- https://odvr.nic.cz/doh
-    #- https://dns.digitale-gesellschaft.ch/dns-query
-    #- https://dnspub.restena.lu/dns-query
-    #- https://doh.applied-privacy.net/query
-    #- https://223.5.5.5/dns-query
-    #- https://1.12.12.12/dns-query
+    - https://odvr.nic.cz/doh
+    - https://dns.digitale-gesellschaft.ch/dns-query
+    - https://dnspub.restena.lu/dns-query
+    - https://doh.applied-privacy.net/query
   #Fake-IP过滤器（这些域名必须返回真实IP，防止部分国内App报错）
   fake-ip-filter:
     #LAN 
