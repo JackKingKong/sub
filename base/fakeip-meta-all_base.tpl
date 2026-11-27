@@ -126,6 +126,7 @@ dns:
   listen: 0.0.0.0:7874
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fake-ip-rang6e: 2001:2::1/64
   #核心开启规则感知分流,当访问一个网站，Mihomo会先看你的分流规则，如果规则说它是DIRECT（国内/直连）：Mihomo只会去找direct-nameserver（国内DNS）解析；
   #如果规则说它是PROXY（国外/代理）：Mihomo直接把域名发给远程代理节点，在海外无污染的环境下进行解析；未命中任何规则则使用nameserver解携。
   respect-rules: true
