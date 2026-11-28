@@ -1,17 +1,17 @@
 ♻️ 节点选择`select`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
-🇺🇲 自动美国节点`url-test`(JMS|美国|美|US|USA|America|United States)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇭🇰 自动香港节点`url-test`(香港|港|HK|Hong Kong)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇹🇼 自动台湾节点`url-test`(台湾|台|TW|Taiwan)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇸🇬 自动狮城节点`url-test`(新加坡|狮城|SG|Singapore)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇯🇵 自动日本节点`url-test`(日本|日|JP|Japan)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇰🇷 自动韩国节点`url-test`(韩国|韩|KR|Korea|KOR|Seoul|首尔|春川)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇬🇧 自动英国节点`url-test`(英国|英|UK|Britain|England|United Kingdom)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇳🇱 自动荷兰节点`url-test`(荷兰|NL|Netherlands)`http://www.msftconnecttest.com/connecttest.txt`600,,50
-🇳🇿 自动新西兰节点`url-test`(新西兰|NZ)`http://www.msftconnecttest.com/connecttest.txt`600,,50
+🇺🇲 自动美国节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(JMS|美国|美|US|USA|America|United States)`https://cp.cloudflare.com/generate_204`600,,50
+🇭🇰 自动香港节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(香港|港|HK|Hong Kong)`https://cp.cloudflare.com/generate_204`600,,50
+🇹🇼 自动台湾节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(台湾|台|TW|Taiwan)`https://cp.cloudflare.com/generate_204`600,,50
+🇸🇬 自动狮城节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(新加坡|狮城|SG|Singapore)`https://cp.cloudflare.com/generate_204`600,,50
+🇯🇵 自动日本节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(日本|日|JP|Japan)`https://cp.cloudflare.com/generate_204`600,,50
+🇰🇷 自动韩国节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(韩国|韩|KR|Korea|KOR|Seoul|首尔|春川)`https://cp.cloudflare.com/generate_204`600,,50
+🇬🇧 自动英国节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(英国|英|UK|Britain|England|United Kingdom)`https://cp.cloudflare.com/generate_204`600,,50
+🇳🇱 自动荷兰节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(荷兰|NL|Netherlands)`https://cp.cloudflare.com/generate_204`600,,50
+🇳🇿 自动新西兰节点`url-test`^(?!.*(?:3|4|5|10)[xX])(?!.*Premium).*(新西兰|NZ)`https://cp.cloudflare.com/generate_204`600,,50
 🌏 自定义直连`select`[]DIRECT`[]♻️ 节点选择`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
 🌏 自定义代理`select`[]♻️ 节点选择`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
 🌏 自定义拦截`select`[]REJECT`[]♻️ 节点选择`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`[]DIRECT`.*
-🌏 魅影`select`[]♻️ 节点选择`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
+🌏 敏感`select`[]♻️ 节点选择`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
 🌏 US-WiFiCalling`select`[]♻️ 节点选择`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
 #🌏 Giffgaff`select`[]♻️ 节点选择`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*
 #🌏 VPSJP`select`[]♻️ 节点选择`[]DIRECT`[]🇭🇰 自动香港节点`[]🇹🇼 自动台湾节点`[]🇸🇬 自动狮城节点`[]🇯🇵 自动日本节点`[]🇰🇷 自动韩国节点`[]🇺🇲 自动美国节点`[]🇬🇧 自动英国节点`[]🇳🇱 自动荷兰节点`[]🇳🇿 自动新西兰节点`.*

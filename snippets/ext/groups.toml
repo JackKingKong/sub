@@ -168,7 +168,7 @@ rule = [
 #]
 
 [[custom_groups]]
-name = "[]🌏 魅影"
+name = "[]🌏 敏感"
 type = "select"
 rule = [
   "[]🚀 节点选择",

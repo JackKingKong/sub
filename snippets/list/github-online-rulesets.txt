@@ -1,7 +1,7 @@
 🌏 自定义直连,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyDirect.list
 🌏 自定义代理,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyProxy.list
 🌏 自定义拦截,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/MyReject.list
-🌏 魅影,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Maying.list
+🌏 敏感,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Sensitive.list
 🌏 US-WiFiCalling,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/US-WiFiCalling.list
 #🌏 Giffgaff,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/Giffgaff.list
 #🌏 VPSJP,https://raw.githubusercontent.com/JackKingKong/sub/main/CustomRules/MyRules/VPSJP.list

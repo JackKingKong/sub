@@ -20,8 +20,8 @@ type = "clash-classic"
 interval = 28800
 
 [[rulesets]]
-group = "🌏 魅影"
-ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Maying.yaml"
+group = "🌏 敏感"
+ruleset = "https://raw.githubusercontent.com/JackKingKong/sub/refs/heads/main/CustomRules/MyRules/ext/Sensitive.yaml"
 type = "clash-classic"
 interval = 28800
 
